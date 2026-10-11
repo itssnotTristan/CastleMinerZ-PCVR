@@ -1,5 +1,5 @@
 {
-  "version": "0.57-public-beta",
+  "version": "0.58-public-beta",
   "sourceGameVersion": "1.9.9.8",
   "contentFingerprint": "15070507204261208425",
   "assets": [
@@ -1181,7 +1181,7 @@
     {
       "path": "game/hud-items.rgba",
       "bytes": 2621448,
-      "sha256": "facea5037252f81cb0348ff7a7d6d3c6360963488e9c810a02674b4483acb125"
+      "sha256": "08f7e76b44c428b01ddac6a2db5c8977a5e4f5799b9dbd14042fc070cbe5219c"
     },
     {
       "path": "game/hud.font",
@@ -1192,6 +1192,11 @@
       "path": "game/impact-effects.bin",
       "bytes": 244,
       "sha256": "4438a6fc2fa680fd3c91f7c3da61899c3016c919a7de1372e4588b3303570f1d"
+    },
+    {
+      "path": "game/intro-digitaldna.rgba",
+      "bytes": 3686408,
+      "sha256": "aad477eba10a41baf55dbd4aade049dd592e04f488b757b4463588fd980ffe69"
     },
     {
       "path": "game/item-model-0-0.rgba",
@@ -1794,9 +1799,24 @@
       "sha256": "27af675b81b2598719eb49d299b8da94933f736eb60d185f29021d9144a00503"
     },
     {
+      "path": "game/laser-impact-flash.rgba",
+      "bytes": 65544,
+      "sha256": "5220342fe6dcfcfdbd75647245ca4e6dda692b12b2cba1fc4eb62abd0f2c70cd"
+    },
+    {
+      "path": "game/laser-impact.bin",
+      "bytes": 124,
+      "sha256": "70f5f1c58564f1c5ca5e5b00bf2ae7c4052ff6cc7b42b2b1a3a90876c488f132"
+    },
+    {
       "path": "game/left.hand",
       "bytes": 52025,
       "sha256": "85009df754bf1d738aa22d0156e5f6fe7573cec7f2413d757146a53a6d16dd1b"
+    },
+    {
+      "path": "game/loading-bar.rgba",
+      "bytes": 119624,
+      "sha256": "6c836d1409ef17399cd1040df7b2831953aab7ce68734cc04e31f01e316fac4f"
     },
     {
       "path": "game/magazines.bin",
@@ -1827,6 +1847,11 @@
       "path": "game/menu.font",
       "bytes": 528,
       "sha256": "f6291a781a0f6938a0eeb9084b568eac4f2fef71e68e840a35766dd9b69b15cc"
+    },
+    {
+      "path": "game/particle-timing.bin",
+      "bytes": 212,
+      "sha256": "9160f80916279d09b11537ad638a5a8b0281a4fda83a98e972674bcd7e402002"
     },
     {
       "path": "game/pickaxe-0.rgba",

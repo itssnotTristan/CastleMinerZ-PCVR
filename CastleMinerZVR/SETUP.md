@@ -61,6 +61,18 @@ Close the VR game before updating. Extract the next compatible PC release into t
 
 To uninstall, remove the added `CastleMinerZVR` folder and the three added launcher files. The original Steam game files remain. Saves and settings stay under `%LOCALAPPDATA%/CastleMinerZ-PCVR`; remove them separately only if you want to erase them.
 
-## v0.57 imports and gameplay
+## v0.58 imports and gameplay
 
-Run setup again after installing this release so it imports the original dragon fire/ice effects and player death clip. Setup keeps a backup of the previous import and preserves existing HD packs. Matching Quest/PC v0.57 adds dragon landing/rest, a red Click to Respawn screen and original far-world Lantern Land terrain near 46.3 km. Physical headset and different-home testing remain pending.
+Run setup again after installing this release so it imports the original dragon fire/ice effects and player death clip. Setup keeps a backup of the previous import and preserves existing HD packs. Matching Quest/PC v0.58 adds dragon landing/rest, a red Click to Respawn screen and original far-world Lantern Land terrain near 46.3 km. Physical headset and different-home testing remain pending.
+
+## Quest standalone installation manual
+
+Download **CastleMinerZVR-Quest2-v0.58-Setup.zip** from this release. Extract the complete ZIP and open **START-HERE.html** before running **Setup Quest.cmd**. The setup kit includes the APK and local import tools. A Windows PC with your Steam installation is needed for setup; standalone play afterward does not need Link or a connected PC.
+
+The [Quest installation manual](QUEST-INSTALL.md) covers Developer Mode, USB debugging, game-file import, Unknown Sources, updates that preserve saves, and troubleshooting. Installing the small APK alone does not supply original game content.
+
+## v0.58 fixes
+
+Restores the gold crate crafting icon and direct crafting-to-hotbar placement. Laser block destruction uses the original Laser/Harvest material tables and original BlasterFlash impact. Dragons use all four original trail layers and all four original impact layers, with the original fire/ice family mapping and emission timing. Distant dragons no longer inherit the loaded-terrain-edge fog. DigitalDNA intro art and original loading-screen artwork are included through your local import. Bounded spawn-location retries prevent failed placements from wasting natural spawn opportunities. PC HD textures, parallax and enhanced lighting remain available.
+
+Current validation: fresh owned-file import, native PC/Quest builds, actual-app scripted crafting/combat/spawning, GPU feedback rendering, and local host/guest checks. Physical v0.58 headset and different-home multiplayer acceptance remain pending. Original-game feature parity is still in progress.

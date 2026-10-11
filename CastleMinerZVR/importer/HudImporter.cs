@@ -74,6 +74,12 @@ partial class ImportGame {
             if(field.FieldType==typeof(IGraphicsDeviceService))field.SetValue(instance,services.GetService(typeof(IGraphicsDeviceService)));
         }
         Console.WriteLine("HUD_ICON_DEVICE "+instance.GraphicsDevice.GraphicsProfile);
+        // This unstarted Game never fires PreparingDeviceSettings. Match the
+        // actual HiDef device before BlockTerrain creates its metal environment
+        // map; a default Reach profile leaves reflective crate icons black.
+        var profileType=T("DNA.CastleMinerZ.GraphicsProfileSupport.GraphicsProfileManager");
+        var profile=profileType.GetProperty("Instance",fields).GetValue(null,null);
+        profileType.GetField("_profile",fields).SetValue(profile,device.GraphicsProfile);
         var argsType=T("DNA.CastleMinerZ.CastleMinerZArgs");argsType.GetField("Instance",fields).SetValue(null,System.Runtime.Serialization.FormatterServices.GetUninitializedObject(argsType));
         DNA.Drawing.GraphicsDeviceLocker.Instance=new DNA.Drawing.GraphicsDeviceLocker();
         var terrain=Activator.CreateInstance(T("DNA.CastleMinerZ.Terrain.BlockTerrain"),new object[]{content});

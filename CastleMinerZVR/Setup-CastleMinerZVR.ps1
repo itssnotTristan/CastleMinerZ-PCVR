@@ -86,7 +86,7 @@ try {
     & (Join-Path $importerRoot 'Import.ps1') -Game $GameDirectory -PrivateOutput $output -Mode base
     if($LASTEXITCODE -ne 0) { throw 'Base game conversion failed.' }
     $converter = Join-Path (Split-Path $output -Parent) 'import-tools/ImportGame.exe'
-    foreach($mode in @('catalog','presentation','generator','dragons','dragon-effects','effects','avatar','barrels','reloads','crosshair','selector','weapon-effects','scopes','storage-ui')) {
+    foreach($mode in @('catalog','presentation','generator','dragons','dragon-effects','effects','avatar','barrels','reloads','crosshair','selector','weapon-effects','scopes','storage-ui','feedback')) {
         Write-Host "Importing $mode..."
         & $converter $GameDirectory $output $mode
         if($LASTEXITCODE -ne 0) { throw "Game conversion failed: $mode" }

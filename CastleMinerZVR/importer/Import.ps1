@@ -1,7 +1,7 @@
 param(
     [string]$Game = 'C:\Program Files (x86)\Steam\steamapps\common\CastleMiner Z',
     [Parameter(Mandatory=$true)][string]$PrivateOutput,
-    [ValidateSet('base','models','catalog','terrain-pack','presentation','generator','dragons','dragon-effects','mode-oracle','effects','enemy-oracle','item-dynamics','crosshair','avatar','barrels','reloads','selector','seed-oracle','weapon-effects','scopes','storage-ui')][string]$Mode = 'base',
+    [ValidateSet('base','models','catalog','terrain-pack','presentation','generator','dragons','dragon-effects','mode-oracle','effects','enemy-oracle','item-dynamics','crosshair','avatar','barrels','reloads','selector','seed-oracle','weapon-effects','scopes','storage-ui','feedback')][string]$Mode = 'base',
     [int]$Shard = 0,
     [int]$Shards = 8
 )
@@ -24,7 +24,7 @@ $references = @(Get-ChildItem -LiteralPath (Join-Path $env:WINDIR 'Microsoft.NET
 if ($references.Count -eq 0) { throw 'XNA 4 runtime is required for this private Windows conversion' }
 $references += '/r:' + (Join-Path $Game 'DNA.Common.dll')
 $exe = Join-Path $toolsDir 'ImportGame.exe'
-$sources = @('ImportGame.cs','CatalogImporter.cs','AnimationImporter.cs','TerrainPackImporter.cs','GameplayImporter.cs','PresentationImporter.cs','GeneratorImporter.cs','HudImporter.cs','DragonImporter.cs','EffectsImporter.cs','EnemyOracleImporter.cs','ItemDynamicsImporter.cs','MagazineGeometryImporter.cs','AvatarImporter.cs','OfflineModelImporter.cs','BarrelImporter.cs','ReloadImporter.cs','ScopeImporter.cs') | ForEach-Object { Join-Path $PSScriptRoot $_ }
+$sources = @('ImportGame.cs','CatalogImporter.cs','AnimationImporter.cs','TerrainPackImporter.cs','GameplayImporter.cs','PresentationImporter.cs','GeneratorImporter.cs','HudImporter.cs','DragonImporter.cs','EffectsImporter.cs','EnemyOracleImporter.cs','ItemDynamicsImporter.cs','MagazineGeometryImporter.cs','AvatarImporter.cs','OfflineModelImporter.cs','BarrelImporter.cs','ReloadImporter.cs','ScopeImporter.cs','FeedbackImporter.cs') | ForEach-Object { Join-Path $PSScriptRoot $_ }
 & $compiler /nologo /target:exe /platform:x86 "/out:$exe" @references @sources
 if ($LASTEXITCODE -ne 0) { throw 'Importer compilation failed' }
 if ($Mode -eq 'terrain-pack') { & $exe $Game $PrivateOutput terrain-pack 8192 $Shard $Shards }

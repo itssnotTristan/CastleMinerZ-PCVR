@@ -1,0 +1,2088 @@
+{
+  "version": "0.58-public-beta",
+  "sourceGameVersion": "1.9.9.8",
+  "contentFingerprint": "15070507204261208425",
+  "assets": [
+    {
+      "path": "game/ClearSky.cube",
+      "bytes": 25165832,
+      "sha256": "03b9c02b574f9ca380f99f5a9147a5f55943b873c81f3282ad8fe602cab0dccc"
+    },
+    {
+      "path": "game/DawnSky.cube",
+      "bytes": 25165832,
+      "sha256": "0bcd9845f5d4b831d39c1fc674b734060eec18a217ade2702e9b945db137b39d"
+    },
+    {
+      "path": "game/NightSky.cube",
+      "bytes": 25165832,
+      "sha256": "0e19717bf222f9a23ba43fb757aa32c39719a194d58decccd334b6470afa8296"
+    },
+    {
+      "path": "game/SunSet.cube",
+      "bytes": 25165832,
+      "sha256": "5e78aa6581d7fec3b31ea6a3cf5409754056943b9a4b41dbdd9efd43a3ebf439"
+    },
+    {
+      "path": "game/atlas.rgba",
+      "bytes": 16777224,
+      "sha256": "632f6e2cba590fe8f5a358f7adc81bae8eb03f63476d2fbe0758106d3e237e10"
+    },
+    {
+      "path": "game/audio/cues.bin",
+      "bytes": 6441,
+      "sha256": "4a04941c44516f49533a2eccd20494d4ad18f8e47bb7a43c6e75876a9570e73e"
+    },
+    {
+      "path": "game/audio/sfx-0001-Click.wav",
+      "bytes": 3896,
+      "sha256": "bd91c7bdb42eafffc5d01cf241e543cd79c3a3cc0d2d57061bc85f9591596cfc"
+    },
+    {
+      "path": "game/audio/sfx-0002-FootStep.wav",
+      "bytes": 12072,
+      "sha256": "70776bbf4b98c62194d1234ccf3f3c43323f659c538db3e1cd434ba006d8c82d"
+    },
+    {
+      "path": "game/audio/sfx-0003-FootStep.wav",
+      "bytes": 10022,
+      "sha256": "afc7ba3773da79f7473afdf5c92ef6bdbba49c875af383874e9ce3ddedf940de"
+    },
+    {
+      "path": "game/audio/sfx-0004-FootStep.wav",
+      "bytes": 9880,
+      "sha256": "9c2094a63b92b86f58b1708eb3c467bd32fdc0c2d89adeae570e0ab2608703c8"
+    },
+    {
+      "path": "game/audio/sfx-0005-FootStep.wav",
+      "bytes": 9672,
+      "sha256": "50c5327eb42261062bcd89b7f8abb8c62939aa5f2ea855d0ec0c54e87ed5597c"
+    },
+    {
+      "path": "game/audio/sfx-0006-FootStep.wav",
+      "bytes": 8500,
+      "sha256": "8e18dd8ea9210797c1dda26dccfc00719425c5c1311e3faea347f5fba1731f54"
+    },
+    {
+      "path": "game/audio/sfx-0007-Pick.wav",
+      "bytes": 2568,
+      "sha256": "2e80af288c1e8b7deebec88537ec3859a9cf7709c5088d2790cab21882a67f4c"
+    },
+    {
+      "path": "game/audio/sfx-0008-Pick.wav",
+      "bytes": 4336,
+      "sha256": "169821dda18e70a9c4e6752ad7e7d3feb0dbd54b2cd12f81509bbe3adebb5bef"
+    },
+    {
+      "path": "game/audio/sfx-0009-Place.wav",
+      "bytes": 6692,
+      "sha256": "246b8f774bc5ee99512c8207a971b9a167dde0777d68759ce16c80c00a2965e7"
+    },
+    {
+      "path": "game/audio/sfx-0010-Place.wav",
+      "bytes": 14578,
+      "sha256": "4ca30fa987d9e44d4f93e065f28584a0e4ab4c47a09052ada6bda742cd652c8b"
+    },
+    {
+      "path": "game/audio/sfx-0011-Place.wav",
+      "bytes": 6366,
+      "sha256": "40db7eafe0c7248a307f194478c00db5b54285fcebfe64605849fbe0e9608561"
+    },
+    {
+      "path": "game/audio/sfx-0012-Place.wav",
+      "bytes": 6890,
+      "sha256": "541240162e247314d6d9909e7f14e4f9acac22dccfa2d2b868f959f8e71e98bf"
+    },
+    {
+      "path": "game/audio/sfx-0013-Place.wav",
+      "bytes": 6806,
+      "sha256": "3b68500e6a939587043a1ae7c23a10d07a5260a29295f15ca43606ccc3465dce"
+    },
+    {
+      "path": "game/audio/sfx-0014-Place.wav",
+      "bytes": 6994,
+      "sha256": "d363c0a49f02cb9512d72ce2c22a426ad0b1acfdc5bf926d39d734a6b0ff3c0e"
+    },
+    {
+      "path": "game/audio/sfx-0015-Place.wav",
+      "bytes": 6290,
+      "sha256": "d2ee17ba5dadbd6cb168afce158f80a56e245b221aac61a466c22cbf5dde7cab"
+    },
+    {
+      "path": "game/audio/sfx-0016-Error.wav",
+      "bytes": 4000,
+      "sha256": "67be6c3444e321d99c9102472700e8fd68f527148801e889264bca5066f798c6"
+    },
+    {
+      "path": "game/audio/sfx-0017-Award.wav",
+      "bytes": 4098,
+      "sha256": "b9e2e1413baafa2622f2571be8315ec48f57850cd4d2c7bb228b524b917defd2"
+    },
+    {
+      "path": "game/audio/sfx-0018-Popup.wav",
+      "bytes": 8102,
+      "sha256": "dfb636813e025acbf0960f91339fef1838f826a0eb69a8b9c7657d545eded1e0"
+    },
+    {
+      "path": "game/audio/sfx-0019-Teleport.wav",
+      "bytes": 18268,
+      "sha256": "b41a4d520df3d335c19b038f85845f45690ba40814bb54b9e4afc5a6d3512afb"
+    },
+    {
+      "path": "game/audio/sfx-0020-BulletHitDirt.wav",
+      "bytes": 7360,
+      "sha256": "3db5b76767ed82b5a132fd18ca7236022ba63d280a8f7c2b6edd094ffe044c44"
+    },
+    {
+      "path": "game/audio/sfx-0021-BulletHitDirt.wav",
+      "bytes": 6296,
+      "sha256": "6e438cd386a9d38af72e8aa49033320056e415710bed31002da51497d7440c03"
+    },
+    {
+      "path": "game/audio/sfx-0022-BulletHitHuman.wav",
+      "bytes": 6780,
+      "sha256": "9edd1ed4674ed59240f8f599cbd62a2da078f05cf21609115d188719fe0bebc6"
+    },
+    {
+      "path": "game/audio/sfx-0023-BulletHitDirt.wav",
+      "bytes": 7096,
+      "sha256": "ebaf288bc3594ba9d769c94f9131c779ce370e565584cf60bb974b942aed0507"
+    },
+    {
+      "path": "game/audio/sfx-0024-LaserGun1; GunShot1.wav",
+      "bytes": 48554,
+      "sha256": "48f7daea644c86bf25290ea5bd5c1a4205568ad59aa6484f63e0523724df28cd"
+    },
+    {
+      "path": "game/audio/sfx-0025-LaserGun1; GunShot1.wav",
+      "bytes": 57374,
+      "sha256": "5881110fce35e1379eaece6466dcadcf99e7e0078fb3f354cd70f0a0e83598b5"
+    },
+    {
+      "path": "game/audio/sfx-0026-LaserGun1; GunShot1.wav",
+      "bytes": 57374,
+      "sha256": "4d9a47611d3d21da6e7684b9456276518208974ca71338875b13586d2ff90304"
+    },
+    {
+      "path": "game/audio/sfx-0027-LaserGun2; GunShot2.wav",
+      "bytes": 36864,
+      "sha256": "8deafb9ebbaf6a75bf6a38740d1fffe1dca053092ec946e216765702b3f55367"
+    },
+    {
+      "path": "game/audio/sfx-0028-LaserGun2; GunShot2.wav",
+      "bytes": 40560,
+      "sha256": "64b01c5bfd85a32e3b6459938bdf315ef231c5f44bce65d42dc62e7b8877d231"
+    },
+    {
+      "path": "game/audio/sfx-0029-LaserGun2; GunShot2.wav",
+      "bytes": 30956,
+      "sha256": "8c96007f1a82b4e183dff572bdecaa1876c97b463e2fb5f65e3af8677ffd06d7"
+    },
+    {
+      "path": "game/audio/sfx-0030-LaserGun3; GunShot3.wav",
+      "bytes": 28638,
+      "sha256": "27690cf80d46e434d22087c556065fe9c468c21da265a2599c0ec4578679cf20"
+    },
+    {
+      "path": "game/audio/sfx-0031-LaserGun3; GunShot3.wav",
+      "bytes": 27388,
+      "sha256": "39ca6921e1e28116dc34111edd3ae4b74a9e79a6b8e66a64c0748a17cfe5e831"
+    },
+    {
+      "path": "game/audio/sfx-0032-LaserGun3; GunShot3.wav",
+      "bytes": 30508,
+      "sha256": "3f199d391d5d9a3d5cfbdddce757cb63331409151a8c11eeaeb16fc14391f7ad"
+    },
+    {
+      "path": "game/audio/sfx-0033-LaserGun4; GunShot4.wav",
+      "bytes": 63716,
+      "sha256": "76086af57afc2d125e1bf98bc187f7ddc386afedcc72f3e6ebb93f3273c79060"
+    },
+    {
+      "path": "game/audio/sfx-0034-LaserGun4; GunShot4.wav",
+      "bytes": 56178,
+      "sha256": "a25d0bca0485b8aee015bbb6af6f9f60e6cb66ea1ec62b5aed3ce93242e9ef85"
+    },
+    {
+      "path": "game/audio/sfx-0035-LaserGun4; GunShot4.wav",
+      "bytes": 56764,
+      "sha256": "c698d3d0c40e31eb086b4536cc711c84faee8586e85b071a280d50d5609c0d35"
+    },
+    {
+      "path": "game/audio/sfx-0036-BulletHitSpray.wav",
+      "bytes": 40200,
+      "sha256": "193328a7dcb768f7976ec7d6e96deed93b01b1f9a0ab3e3aa2a77852238e1fc0"
+    },
+    {
+      "path": "game/audio/sfx-0037-BulletHitSpray.wav",
+      "bytes": 38296,
+      "sha256": "96196af89fad0b523af932c8aba323f2818343730b5ab76785624adb15c94eb8"
+    },
+    {
+      "path": "game/audio/sfx-0038-Reload.wav",
+      "bytes": 73680,
+      "sha256": "c2b44f8b86b99ce7d08dd7fbacaef15046fd0f407c64788a59a56e7b35692613"
+    },
+    {
+      "path": "game/audio/sfx-0039-thunderLow.wav",
+      "bytes": 270152,
+      "sha256": "4f0fc10b8e3a8f18d69b62e429bc8be796b72a3feb61896c6a25932af68f0376"
+    },
+    {
+      "path": "game/audio/sfx-0040-thunderBig.wav",
+      "bytes": 159296,
+      "sha256": "b66f40dde44458091dfde556e9fd83c442a880da937cc09709c453fb8c2a9c2d"
+    },
+    {
+      "path": "game/audio/sfx-0041-thunderLow.wav",
+      "bytes": 321162,
+      "sha256": "028b6b8f4e57cfa2dde57de8aebb8db02ba9519a4a1c205d93a56f80e257c606"
+    },
+    {
+      "path": "game/audio/sfx-0042-thunderLow.wav",
+      "bytes": 209520,
+      "sha256": "791f8c280d1a4baf34da1fdb0b9ad00ce7fdeeb945a7648ac452d2217f629250"
+    },
+    {
+      "path": "game/audio/sfx-0043-craft.wav",
+      "bytes": 11784,
+      "sha256": "48fec8dd877210fcf42b05327037176a03a74ccd0cad5bf649481b8a941534a4"
+    },
+    {
+      "path": "game/audio/sfx-0044-dropitem.wav",
+      "bytes": 5556,
+      "sha256": "ddff9ecdf23431ab159079ac985cc8a8af4e8044c4ff90f89982c061352d3beb"
+    },
+    {
+      "path": "game/audio/sfx-0045-pickupitem.wav",
+      "bytes": 4232,
+      "sha256": "4e189c10f934df32dbb426e0ab238934f814c154756b503309b11cc7c2745796"
+    },
+    {
+      "path": "game/audio/sfx-0046-punch.wav",
+      "bytes": 4166,
+      "sha256": "0a41a1e8b617c77f96c5ad53b4b1ffc6b2725866efc32bb68ad8b5bb63c44f1c"
+    },
+    {
+      "path": "game/audio/sfx-0047-punchMiss.wav",
+      "bytes": 5264,
+      "sha256": "a5acba1fe54d24ab2912b55495ec342a70cc1e67a84af71e7677390f8b5e9036"
+    },
+    {
+      "path": "game/audio/sfx-0048-arrow.wav",
+      "bytes": 18894,
+      "sha256": "645b08d42b950f4e84ece89e3e2ed4f529321d9e8ea224d105c381ac8f8a4f3d"
+    },
+    {
+      "path": "game/audio/sfx-0049-AssaultReload.wav",
+      "bytes": 64556,
+      "sha256": "cf620b55df6aec15fb9d12e589595960eb6048278745f1215589da002aea0756"
+    },
+    {
+      "path": "game/audio/sfx-0050-Shotgun; LaserGun5.wav",
+      "bytes": 45136,
+      "sha256": "1e96df137ce528750e7d6a4ddf29c7831ae95985f9ab010248c2eebb92f42f5b"
+    },
+    {
+      "path": "game/audio/sfx-0051-ShotGunReload.wav",
+      "bytes": 39572,
+      "sha256": "96631c604684b4f229c512bfa7931c5935676c472c7e68aa79e61f9f62faf8c2"
+    },
+    {
+      "path": "game/audio/sfx-0052-Sand.wav",
+      "bytes": 16800,
+      "sha256": "9a9dc9bb4184062667c398f613c7b6fb62c6f6c83197848b9f698a526dda8483"
+    },
+    {
+      "path": "game/audio/sfx-0053-Sand.wav",
+      "bytes": 20618,
+      "sha256": "bf90cf5f3125d21345d413fac561455e9de59a4329e734ddbc317435d084d239"
+    },
+    {
+      "path": "game/audio/sfx-0054-leaves.wav",
+      "bytes": 19974,
+      "sha256": "1b1b1f31fec0b9c424a910c5bb7e1ab9a4a6d850e59901c5a1a7d0ccf10cd2fa"
+    },
+    {
+      "path": "game/audio/sfx-0055-leaves.wav",
+      "bytes": 22606,
+      "sha256": "1de966750b40815635d14feffd3aa48092699c1a6e34c14f407a46f1b87da1ad"
+    },
+    {
+      "path": "game/audio/sfx-0056-dirt.wav",
+      "bytes": 8296,
+      "sha256": "3e0cae37fd7d3e2163670afd485715db4719d021bb19daf519af6cf31edf5877"
+    },
+    {
+      "path": "game/audio/sfx-0057-dirt.wav",
+      "bytes": 8424,
+      "sha256": "7326e060dcff1a63b5013554e5c6c9a3de40f083dffddf342c07f643e4fb1763"
+    },
+    {
+      "path": "game/audio/sfx-0058-CreatureUnearth.wav",
+      "bytes": 230444,
+      "sha256": "8edd3e1f4bb5305b97820f2d753b7d172a584c6296209fb8b30f0236c6326d19"
+    },
+    {
+      "path": "game/audio/sfx-0059-Skeleton.wav",
+      "bytes": 27886,
+      "sha256": "86c3c30b9284e6da702b9d171babe021157a44a460a6f0bd83460100a4cbadf9"
+    },
+    {
+      "path": "game/audio/sfx-0060-Skeleton.wav",
+      "bytes": 98654,
+      "sha256": "705d54288a87ecfc9954bfad8461b61f7ca6ce881e73b789b6658989e6cc9670"
+    },
+    {
+      "path": "game/audio/sfx-0061-Skeleton.wav",
+      "bytes": 132344,
+      "sha256": "058181d5e5907dc28b3213991c375f1408f0e4714deae12a2b7cbd5b9c957313"
+    },
+    {
+      "path": "game/audio/sfx-0062-Skeleton.wav",
+      "bytes": 13774,
+      "sha256": "ea07433e2135d2bc8094e58e631433c2cfa93c26576e9a1518ca6a8ea808867a"
+    },
+    {
+      "path": "game/audio/sfx-0063-Skeleton.wav",
+      "bytes": 14072,
+      "sha256": "93cf914416c84c00514729a522ece9a2a037363d26ee9caf20c49b7c8a6a69cc"
+    },
+    {
+      "path": "game/audio/sfx-0064-Skeleton.wav",
+      "bytes": 15478,
+      "sha256": "e9e31a627146ed4f51756c84b304cf3ba39eaa5c67fad483e5c7e971535492b1"
+    },
+    {
+      "path": "game/audio/sfx-0065-Skeleton.wav",
+      "bytes": 40358,
+      "sha256": "c81199673dfbc9f00faa46f95ea5a5d3252519868b9ba9c148e654700a9422ef"
+    },
+    {
+      "path": "game/audio/sfx-0066-ZombieCry.wav",
+      "bytes": 138476,
+      "sha256": "2235fe5f316e51d9e9a1c3d39cdfe47b281fa01d50c03d153833c7b3d3090848"
+    },
+    {
+      "path": "game/audio/sfx-0067-ZombieCry.wav",
+      "bytes": 153648,
+      "sha256": "f69a82632fac9aa8e41fce3f74b5db891562f7ce5b053ecdfe7bc09284a6890f"
+    },
+    {
+      "path": "game/audio/sfx-0068-ZombieGrowl.wav",
+      "bytes": 50258,
+      "sha256": "0aa258f5383349630c25f5fae6500590b34de621d06b02b1b3a0ae0c8e7ccc47"
+    },
+    {
+      "path": "game/audio/sfx-0069-ZombieGrowl.wav",
+      "bytes": 76646,
+      "sha256": "31cc3ceffc787782b0f88a3482694247c62d593ae1d5f7b33859bd6c44cfebae"
+    },
+    {
+      "path": "game/audio/sfx-0070-ZombieGrowl.wav",
+      "bytes": 38602,
+      "sha256": "3fc7b3286f211a0ec8f31018dbb517b62b20560330e2dfbeff2536a2b38fe94d"
+    },
+    {
+      "path": "game/audio/sfx-0071-ZombieGrowl.wav",
+      "bytes": 45618,
+      "sha256": "704b48f3b0ee82162303931adca8dc25a1f992ef8084a97e59de9ba9a4296508"
+    },
+    {
+      "path": "game/audio/sfx-0072-ZombieGrowl.wav",
+      "bytes": 65198,
+      "sha256": "ef10a525c6e96ce3b909c49e8a0fcbacfa6f5aca48bc73b3df9bd771e6ddea7b"
+    },
+    {
+      "path": "game/audio/sfx-0073-ZombieGrowl.wav",
+      "bytes": 79118,
+      "sha256": "221fd5d471abf4b5db85a8068e443910100e7c3e03659edc3464b4689149640d"
+    },
+    {
+      "path": "game/audio/sfx-0074-Hit.wav",
+      "bytes": 27324,
+      "sha256": "25e5ebcd419d86fdef1db612be7a57c0bbf282b7ce71f47f5e4d70dab75df859"
+    },
+    {
+      "path": "game/audio/sfx-0075-Hit.wav",
+      "bytes": 8736,
+      "sha256": "507cae18b0f947e6bcbcd6ddfd501765f6e3f276fe5bf0363b27983c82665098"
+    },
+    {
+      "path": "game/audio/sfx-0076-Hit.wav",
+      "bytes": 8864,
+      "sha256": "2152f326861e2d1d5cb432834248244609140348ef24b3e2d70c00a67d250719"
+    },
+    {
+      "path": "game/audio/sfx-0077-Hit.wav",
+      "bytes": 8948,
+      "sha256": "f05c41132632a3519e42e6bd7758f418338a44fa98011a86484caadcb2b020b3"
+    },
+    {
+      "path": "game/audio/sfx-0078-Hit.wav",
+      "bytes": 14518,
+      "sha256": "2b9800c109be7888b02034cd703998abfaf68534dd27a3fc05e33ecf49c2cd57"
+    },
+    {
+      "path": "game/audio/sfx-0079-Hit.wav",
+      "bytes": 10590,
+      "sha256": "25daa5f790fe12e3d4a43ee007201a21d540c63146479c02b074aa52dc1cb027"
+    },
+    {
+      "path": "game/audio/sfx-0080-Fall.wav",
+      "bytes": 61460,
+      "sha256": "b8c2ab942dc604edbd5ea021f2daf392f784323b0df5cebaf7fbc547e5440abd"
+    },
+    {
+      "path": "game/audio/sfx-0081-Fall.wav",
+      "bytes": 73060,
+      "sha256": "d59b8740110f38e359c80ad2f5ee184c3b13304b8b81b68e236d5535bc1796b9"
+    },
+    {
+      "path": "game/audio/sfx-0082-Fall.wav",
+      "bytes": 77972,
+      "sha256": "526567768c41ef563d681303c464f23d426868569399013ae80332718085da5f"
+    },
+    {
+      "path": "game/audio/sfx-0083-ZombieCry.wav",
+      "bytes": 91052,
+      "sha256": "6402def114e26017f121deba4b026698dfd782e0892d383d7094889daade964c"
+    },
+    {
+      "path": "game/audio/sfx-0084-Douse.wav",
+      "bytes": 20646,
+      "sha256": "e24db586dcb328e74ae6f16b7228ae66246e99a57abd4d8e6ae93b42ab73d638"
+    },
+    {
+      "path": "game/audio/sfx-0085-Douse.wav",
+      "bytes": 49860,
+      "sha256": "ccc1c617f87d23cf76d5fbd7cfc4d1a2f3407998c0b388738ed1b201dc3e0fe7"
+    },
+    {
+      "path": "game/audio/sfx-0086-HorrorStinger.wav",
+      "bytes": 165420,
+      "sha256": "e03fdb71f549b19a8c6db9398dfeaa7d1295cc6a5cc768380238df4374da4978"
+    },
+    {
+      "path": "game/audio/sfx-0087-DragonScream.wav",
+      "bytes": 76702,
+      "sha256": "f31baefc69c810addb842941c795eab814637941360f248f0f6a71189ad600de"
+    },
+    {
+      "path": "game/audio/sfx-0088-DragonScream.wav",
+      "bytes": 62638,
+      "sha256": "c92a0eb818edbdf272932045f54881ac9ba7b84841e824bb29db88f65e7912d0"
+    },
+    {
+      "path": "game/audio/sfx-0089-DragonScream.wav",
+      "bytes": 77220,
+      "sha256": "16e4035abf3af67007707c86b79f2760200ffc6c679a8cd7fb7a37b89f295c95"
+    },
+    {
+      "path": "game/audio/sfx-0090-DragonScream.wav",
+      "bytes": 54900,
+      "sha256": "5789ce05508c3e2b256a80b994a7bf160cb7f5c5f16633df4a232b7f4540858d"
+    },
+    {
+      "path": "game/audio/sfx-0091-Explosion.wav",
+      "bytes": 175320,
+      "sha256": "1b92ab7307a820fbaa233d2da69f06fe9372624e3365287c3f540d446432787f"
+    },
+    {
+      "path": "game/audio/sfx-0092-Explosion.wav",
+      "bytes": 150764,
+      "sha256": "e9dc3cb7ccaff7b87f207d38cfcc82b8e4ea3081cfc49b80fbae90c7cb25b1c3"
+    },
+    {
+      "path": "game/audio/sfx-0093-Explosion.wav",
+      "bytes": 181012,
+      "sha256": "34eb6bbccc182ffe66c3aafdac9d47ae903c560d9cd7dfc21b61a46f25422350"
+    },
+    {
+      "path": "game/audio/sfx-0094-Explosion.wav",
+      "bytes": 165328,
+      "sha256": "2290ad645856c9029bf7be403e9bf17c40eedcebed85592c4d70adfdb4bd1c6c"
+    },
+    {
+      "path": "game/audio/sfx-0095-WingFlap.wav",
+      "bytes": 45280,
+      "sha256": "ee2b4e9a0464b4dc77376a442d98e40ff155da96d6fe79a460cdf59569e1979f"
+    },
+    {
+      "path": "game/audio/sfx-0096-WingFlap.wav",
+      "bytes": 41940,
+      "sha256": "abf19f98ccb989d64b544d51b8f56325b8c14daf6f07ee93af00728e481757c3"
+    },
+    {
+      "path": "game/audio/sfx-0097-WingFlap.wav",
+      "bytes": 41616,
+      "sha256": "5367bf34da04820ba20a2e53582ce494266c0f7ebc784793f7d4db62bb21f7f4"
+    },
+    {
+      "path": "game/audio/sfx-0098-WingFlap.wav",
+      "bytes": 44144,
+      "sha256": "262d57122cbba405fe70481b6560f5f7308603e9560e46e8636140be6e0cc158"
+    },
+    {
+      "path": "game/audio/sfx-0099-WingFlap.wav",
+      "bytes": 44144,
+      "sha256": "f9bb5e66a4ed544495c8547bc3768c574761a1786ca58ed0b51d81486e00aee9"
+    },
+    {
+      "path": "game/audio/sfx-0100-WingFlap.wav",
+      "bytes": 44144,
+      "sha256": "56cffdc7801f6a3c5e67cdcc20cb89183dfe22e866beb3bed57178e557072d4a"
+    },
+    {
+      "path": "game/audio/sfx-0101-DragonFall.wav",
+      "bytes": 41292,
+      "sha256": "55ecc7ac3aa8f46b4d8ac2b7f8da27c1a682119abe4d64db4fa0585aebb81ee4"
+    },
+    {
+      "path": "game/audio/sfx-0102-DragonFall.wav",
+      "bytes": 37368,
+      "sha256": "668e88bdf2f9549d785d10e77a2d7b0559c0adfb07144f946d647143f8cf38af"
+    },
+    {
+      "path": "game/audio/sfx-0103-DragonFall.wav",
+      "bytes": 53104,
+      "sha256": "bb1a0ea2865030df7b0ff91ec59bef2272f4bc2ab07cc79d654954d2d3c7efac"
+    },
+    {
+      "path": "game/audio/sfx-0104-DragonFall.wav",
+      "bytes": 36196,
+      "sha256": "c859c5162636bbfa55383f2f197cb4b2b6c53633bd73518890b911c6efd0fe9b"
+    },
+    {
+      "path": "game/audio/sfx-0105-DragonFall.wav",
+      "bytes": 42402,
+      "sha256": "b52cde5d0c07eff68016b4cca9fede804dfd5242fe75f6ca3eb4dd9da52032fe"
+    },
+    {
+      "path": "game/audio/sfx-0106-DragonFall.wav",
+      "bytes": 33364,
+      "sha256": "dd2b62463a04a8ba335395a0b9eab62fb6e70761f2faf03bbbd1d58029c51e11"
+    },
+    {
+      "path": "game/audio/sfx-0107-Fireball.wav",
+      "bytes": 132344,
+      "sha256": "6b90d1f9edcd32d96d6f053cf1f8de471c19fd5d8cbe723265fb3d52893eca0c"
+    },
+    {
+      "path": "game/audio/sfx-0108-Iceball.wav",
+      "bytes": 75992,
+      "sha256": "e9d7c28d1a47ba6984357b786f40dff218ff666e226d596005e3be1838d24fa9"
+    },
+    {
+      "path": "game/audio/sfx-0109-Freeze.wav",
+      "bytes": 29280,
+      "sha256": "418940ea9a433862027c7ac15aa9c9ebd4e74d0135131449161ad86359a226eb"
+    },
+    {
+      "path": "game/audio/sfx-0110-Freeze.wav",
+      "bytes": 55168,
+      "sha256": "b67db153f2557be6d99efea8bd93431b7c1d8420e153c8afbe2c8af60a2f98dd"
+    },
+    {
+      "path": "game/audio/sfx-0111-Freeze.wav",
+      "bytes": 32850,
+      "sha256": "c3bee143231cabb0f32389a2f0f264c8743dff4b25b2fe8fe01adaed7e38e769"
+    },
+    {
+      "path": "game/audio/sfx-0112-DoorClose.wav",
+      "bytes": 16146,
+      "sha256": "6b3728c3c59b3c31b8cd67fd7148c899258174cbae3529624b289c24e8088cfc"
+    },
+    {
+      "path": "game/audio/sfx-0113-DoorOpen.wav",
+      "bytes": 15480,
+      "sha256": "291c8f7287d731d9eca96f68e3516246a203dbee4e5bc62c18739f4fe00e3825"
+    },
+    {
+      "path": "game/audio/sfx-0114-locator.wav",
+      "bytes": 4190,
+      "sha256": "3ed4ca4a6b776606ea0200fb2a3a32dca5e10349e698d3e480b5f35180a5a539"
+    },
+    {
+      "path": "game/audio/sfx-0115-Felguard.wav",
+      "bytes": 40364,
+      "sha256": "27a16717614ea2233233750fb49433f86b63c6862d69aa1d94d5b2276333c621"
+    },
+    {
+      "path": "game/audio/sfx-0116-Felguard.wav",
+      "bytes": 32300,
+      "sha256": "54b41dd393a3d8ce30bd7b6be47185cb5965cb1d85e69e435acf168263113786"
+    },
+    {
+      "path": "game/audio/sfx-0117-Felguard.wav",
+      "bytes": 69164,
+      "sha256": "a6bda57a43e2b7354ebaf2ea063333193494f17bf2d21dc4745ea0676bfda128"
+    },
+    {
+      "path": "game/audio/sfx-0118-Felguard.wav",
+      "bytes": 73994,
+      "sha256": "dfbae3a5f6fe5bdc69478c07cfd99fcb79d8fb51e92a75ad95ac092859688560"
+    },
+    {
+      "path": "game/audio/sfx-0119-Fuse.wav",
+      "bytes": 88244,
+      "sha256": "59f99fea94d166dfa8b3daa183505fa43ecc6984da3e141dbbdbe6a99ce41d82"
+    },
+    {
+      "path": "game/audio/sfx-0120-LaserGun1; LaserGun2; LaserGun3; LaserGun4; LaserGun5.wav",
+      "bytes": 44092,
+      "sha256": "5152e97aad554d1f0dc3ca1894b0e8a451f944a32efffa76a26c06b8b9e52bec"
+    },
+    {
+      "path": "game/audio/sfx-0121-LaserGun1; LaserGun2; LaserGun3; LaserGun4; LaserGun5.wav",
+      "bytes": 24550,
+      "sha256": "0f2466411c2c3aecdb0943721aa4c4a136325a17a4d47d5ef9a4157cf15574e8"
+    },
+    {
+      "path": "game/audio/sfx-0122-LaserGun1; LaserGun2; LaserGun3; LaserGun4; LaserGun5.wav",
+      "bytes": 28752,
+      "sha256": "d60031efacc88428bb2a2d5b0285b05c8f399463bf37261de36387c4542bca8b"
+    },
+    {
+      "path": "game/audio/sfx-0123-LaserGun1; LaserGun2; LaserGun3; LaserGun4; LaserGun5.wav",
+      "bytes": 37066,
+      "sha256": "46e84fab41654b1b9ddfc47b13038ff2bd9c32b1ca164efa9973ecd82ab0f7fa"
+    },
+    {
+      "path": "game/audio/sfx-0124-Beep.wav",
+      "bytes": 3424,
+      "sha256": "06e1ef0cddb519a262f14879169b900a65c3fc165c90821d1f4c9a300bbd0fc5"
+    },
+    {
+      "path": "game/audio/sfx-0125-SolidTone.wav",
+      "bytes": 3176,
+      "sha256": "92289baeeadd44b49a79ce7c669c6944ea3cdf43efc77d1a74048a4725f83d57"
+    },
+    {
+      "path": "game/audio/sfx-0126-RPGLaunch.wav",
+      "bytes": 60776,
+      "sha256": "5d16e24671951c607f574cb4a176298aacb75103e12433ab335dd56dbadd4fc7"
+    },
+    {
+      "path": "game/audio/sfx-0127-Alien.wav",
+      "bytes": 91808,
+      "sha256": "5a804673a91257c84ab58a153edacc9d3252066d9004ef95411754703b53ae98"
+    },
+    {
+      "path": "game/audio/sfx-0128-Alien.wav",
+      "bytes": 81628,
+      "sha256": "d69104700bd98d7a081d106b3866f787c754c0f2470aa0a06145d8746acb30a0"
+    },
+    {
+      "path": "game/audio/sfx-0129-Alien.wav",
+      "bytes": 69244,
+      "sha256": "0c4c7fc93c3d0a6163844c6a6ac3cb66e3eebca59c07daf02eac40777eddd0a4"
+    },
+    {
+      "path": "game/audio/sfx-0130-Alien.wav",
+      "bytes": 37452,
+      "sha256": "a0412ab40cf39aaab7d8531de60df6f7948e754217ba30819135983ccbd57838"
+    },
+    {
+      "path": "game/audio/sfx-0131-Alien.wav",
+      "bytes": 91216,
+      "sha256": "582c9c5c8af408954cc8b4c0a48716a9e9eb1ace8a8daa2601e8160777ae898e"
+    },
+    {
+      "path": "game/audio/sfx-0132-GrenadeArm.wav",
+      "bytes": 19888,
+      "sha256": "676bf044164359d50290f713ca5b376ae7689a3ae15187a0e9aa44086a22c5a4"
+    },
+    {
+      "path": "game/audio/sfx-0133-RocketWhoosh.wav",
+      "bytes": 33792,
+      "sha256": "6c34496c8bab5b4a9a754764a2bb3a5bad1cae8f61502154642cc4949f57284c"
+    },
+    {
+      "path": "game/audio/sfx-0134-LightSaberSwing.wav",
+      "bytes": 13068,
+      "sha256": "5b5d4c4cfdf269651c81414a5758f8d612b0508688cf6502163619493288aaad"
+    },
+    {
+      "path": "game/audio/sfx-0135-LightSaberSwing.wav",
+      "bytes": 10678,
+      "sha256": "8ba466a9161a9117d8a152c66cc1e7c3d8a49d304fed81b6e2b036dc2ca5b782"
+    },
+    {
+      "path": "game/audio/sfx-0136-LightSaberSwing.wav",
+      "bytes": 11510,
+      "sha256": "1bf8eac2c8ec8fb94e877273b1ec15ce6b598e671957e83e10c39c3ca42bc2db"
+    },
+    {
+      "path": "game/audio/sfx-0137-LightSaber.wav",
+      "bytes": 86048,
+      "sha256": "c7221652af6c20f9428f1d7b224afac9a331d350664729fa2c0ab7ddf782146e"
+    },
+    {
+      "path": "game/audio/sfx-0138-GroundCrash.wav",
+      "bytes": 34550,
+      "sha256": "9f73d95fa53aac1c46a26b258ab4cdb46ad0e08912ceabec18fb36664987b42a"
+    },
+    {
+      "path": "game/audio/sfx-0139-GroundCrash.wav",
+      "bytes": 30436,
+      "sha256": "a213a2ef6d5ef0d633589a1db04dad3bfa504a8438753150c0f5442333d303a7"
+    },
+    {
+      "path": "game/audio/sfx-0140-GroundCrash.wav",
+      "bytes": 33120,
+      "sha256": "c8b940dd8520cc56fda76be2544f2daada6d5d15c956e4dd667460ff9602df15"
+    },
+    {
+      "path": "game/audio/sfx-0141-GroundCrash.wav",
+      "bytes": 26012,
+      "sha256": "214432f5770b05b11b6a3b767f14030c1476901e57e4897761ea01c337b75c26"
+    },
+    {
+      "path": "game/audio/sfx-0142-ZombieDig.wav",
+      "bytes": 13802,
+      "sha256": "6348f4f7bd888766ae7939477bfb94c94ea1d43706db40093a128cc9b2d1bb7c"
+    },
+    {
+      "path": "game/audio/sfx-0143-ZombieDig.wav",
+      "bytes": 15984,
+      "sha256": "090cb4c8e94f68f29acc02399f06eadd04b40056d98fba2457d4fe4695319c51"
+    },
+    {
+      "path": "game/audio/sfx-0144-ZombieDig.wav",
+      "bytes": 17452,
+      "sha256": "b59814fd4e48f57f5b5d477e5c71f0c34fb27c9230c461117e47cedce41adc7d"
+    },
+    {
+      "path": "game/audio/sfx-0145-ZombieDig.wav",
+      "bytes": 16176,
+      "sha256": "f062d5dcee72510b2456c44ce625e64b356292b223c04818d5ef6ab24c5f8090"
+    },
+    {
+      "path": "game/audio/sfx-0146-ChainSawCutting.wav",
+      "bytes": 482686,
+      "sha256": "3e388f0240b19fac61aba64bde87a5e0c0c2efe349df60cbc24ec18f155319ce"
+    },
+    {
+      "path": "game/audio/sfx-0147-ChainSawIdle.wav",
+      "bytes": 506230,
+      "sha256": "7292e2d5fd0ec6a13080fe1f73a60036ca6ede7dae7498bc755fb9ded8f4c8fc"
+    },
+    {
+      "path": "game/audio/sfx-0148-ChainSawSpinning.wav",
+      "bytes": 456200,
+      "sha256": "38de2127350f90886631c002378ea3eabfe897c5f90c93b3c887a09fc8601491"
+    },
+    {
+      "path": "game/audio/stream-0001-Theme.wav",
+      "bytes": 10145836,
+      "sha256": "ef91852551373b4df94557cf4dd86234698dd413c414472db44cac642e629ae5"
+    },
+    {
+      "path": "game/audio/stream-0002-Birds.wav",
+      "bytes": 566316,
+      "sha256": "2d81ddbd71c95bae84863c2eb32a70b71156cc6dcea7f2541b8b76d8ad93c202"
+    },
+    {
+      "path": "game/audio/stream-0003-Crickets.wav",
+      "bytes": 1769516,
+      "sha256": "63f4970298582535fd150ca1a54c4517f1d5edb952e8f8a454f03c78886097ae"
+    },
+    {
+      "path": "game/audio/stream-0004-Drips.wav",
+      "bytes": 1765420,
+      "sha256": "223b59aa5407a40e10743296c547fe2ad3786924493d20175e17a7951e310c9e"
+    },
+    {
+      "path": "game/audio/stream-0005-Song1.wav",
+      "bytes": 13008940,
+      "sha256": "276c253c23d2fbd1970ece6f855322602f65312317683ac18fcf9750d8716dda"
+    },
+    {
+      "path": "game/audio/stream-0006-Song2.wav",
+      "bytes": 14319660,
+      "sha256": "2117eed275020ea50647539600b8dc483a976236409ebddb74602fbe3d9161c4"
+    },
+    {
+      "path": "game/audio/stream-0007-lostSouls.wav",
+      "bytes": 2016300,
+      "sha256": "b633e9e4ff269b343fe0aff4f1802a30a90d07d36708e27cae8d4d8078b6f967"
+    },
+    {
+      "path": "game/audio/stream-0008-Song6.wav",
+      "bytes": 18817068,
+      "sha256": "de19789af8762202d3bd991e225f2d8c7f76466a966ce260402a2ea6ff4a9304"
+    },
+    {
+      "path": "game/audio/stream-0009-Song3.wav",
+      "bytes": 17080364,
+      "sha256": "f9338b4fbfa45bf4a2738c35d818feffc148089e0e2b6f3ac9a001c12acdd2f4"
+    },
+    {
+      "path": "game/audio/stream-0010-Song4.wav",
+      "bytes": 12058668,
+      "sha256": "9e4b828c86a32a699e4589dbfcb7a11bb990a5ddb6d28368abaeb79c5934879b"
+    },
+    {
+      "path": "game/audio/stream-0011-Song5.wav",
+      "bytes": 25845804,
+      "sha256": "bf80910c38aa72a86817b15dd4a6500fc5f884d17b6cb1741f618a447089530a"
+    },
+    {
+      "path": "game/audio/stream-0012-SpaceTheme.wav",
+      "bytes": 7413804,
+      "sha256": "9f98f5b0ecd9aa73c7190cbdb9e8c83142bb96ce731d05e08fd83d36b1997eef"
+    },
+    {
+      "path": "game/avatar-rig.bin",
+      "bytes": 10673,
+      "sha256": "01729a45d71a98ffe57c513f0e343aa01739e684dbe4ce5cd79341df65082879"
+    },
+    {
+      "path": "game/barrel-frames.bin",
+      "bytes": 1202,
+      "sha256": "4897a68fc7577d522dc69e7b04afe4d78e1940ebe9b0c04626a850d122724544"
+    },
+    {
+      "path": "game/block-cracks-0.rgba",
+      "bytes": 262152,
+      "sha256": "a114789d597de7c28a8fda222d66d74ca5386ecda92d1759c2e482332696dcdc"
+    },
+    {
+      "path": "game/block-cracks.mesh",
+      "bytes": 911,
+      "sha256": "725931fc43b7ea5a5cfffed2dd3d06e80880481e0b42ce39211fe115963b7746"
+    },
+    {
+      "path": "game/block-selector-0.rgba",
+      "bytes": 65544,
+      "sha256": "887f0e9fec4ae2b023c3996033250e3cbe579927bc86a8a0989732307f6bbed0"
+    },
+    {
+      "path": "game/block-selector-1.rgba",
+      "bytes": 65544,
+      "sha256": "c53004e2c4ce93fde05566bbf99ea98e14ed094f52db1572b673910adffd55b1"
+    },
+    {
+      "path": "game/block-selector-2.rgba",
+      "bytes": 65544,
+      "sha256": "887f0e9fec4ae2b023c3996033250e3cbe579927bc86a8a0989732307f6bbed0"
+    },
+    {
+      "path": "game/block-selector.bin",
+      "bytes": 20,
+      "sha256": "dff31caade0e718f121e49c5a43ca81afd5c5a5f57b14af07c9ea96a9bbc9667"
+    },
+    {
+      "path": "game/block-selector.mesh",
+      "bytes": 1019,
+      "sha256": "9ebbca768b710ec00eb2cbfde30a3f67f24e38c5c5ef94dc9561174670997dd1"
+    },
+    {
+      "path": "game/blocks.bin",
+      "bytes": 4583,
+      "sha256": "8964d3d2e397a624be6472c03a14fe091c5a49760d7725ec4a9ea2e91666e1c7"
+    },
+    {
+      "path": "game/catalog.bin",
+      "bytes": 190452,
+      "sha256": "e3f5c754cb14a004dc20f3d26f3a1b011bd3b42b0cb2c3302ecccdadf3997565"
+    },
+    {
+      "path": "game/compass-pivot.bin",
+      "bytes": 76,
+      "sha256": "11536928bd8c47490847bfabc21b1b610c7821595aade6b5afbe3b0c3bb7a5bc"
+    },
+    {
+      "path": "game/dragon-body.skin",
+      "bytes": 2149078,
+      "sha256": "cbc4bb5bd3ac05bb115f643081240d87f778a7a04588d1f2d19fb8b00e1cc24c"
+    },
+    {
+      "path": "game/dragon-effects.bin",
+      "bytes": 1928,
+      "sha256": "a4eb87dc74def5cf364d83bece199e6f347a60cd9e8acd86d72175afe58204fd"
+    },
+    {
+      "path": "game/dragon-feet.skin",
+      "bytes": 669474,
+      "sha256": "0df2c72d3e4edf9d96f68660057671d7a7ea234ef3df4bf29abf9cd2f9667514"
+    },
+    {
+      "path": "game/dragon-fireball-0.rgba",
+      "bytes": 65544,
+      "sha256": "52270609187a5b72ab2e504b38155c086e6b2074417ee6855a69ead48da91486"
+    },
+    {
+      "path": "game/dragon-fireball.mesh",
+      "bytes": 2094,
+      "sha256": "4aece142683b0a52b43069a1f0857c8c76dec5957435d0ca06ca7a29cd01d50a"
+    },
+    {
+      "path": "game/dragon-fx-0.rgba",
+      "bytes": 262152,
+      "sha256": "e919551bae27208c1b94a9da591d8861d56bc661eba4d6ed402c61d71aaae014"
+    },
+    {
+      "path": "game/dragon-fx-1.rgba",
+      "bytes": 262152,
+      "sha256": "be0b952fa96783c197846244e115943629a3126772467781f48d14fb6864cc41"
+    },
+    {
+      "path": "game/dragon-fx-10.rgba",
+      "bytes": 65544,
+      "sha256": "bbc539b39f8ab78481eab14a5919ab6b425bf2230fa05b39fa75978d22ef0ae2"
+    },
+    {
+      "path": "game/dragon-fx-11.rgba",
+      "bytes": 65544,
+      "sha256": "66d50ada299267d164d816b5e7c479d2bdf49d0fa58f401e45acd0e7cb5e77d9"
+    },
+    {
+      "path": "game/dragon-fx-12.rgba",
+      "bytes": 65544,
+      "sha256": "bbc539b39f8ab78481eab14a5919ab6b425bf2230fa05b39fa75978d22ef0ae2"
+    },
+    {
+      "path": "game/dragon-fx-13.rgba",
+      "bytes": 65544,
+      "sha256": "66d50ada299267d164d816b5e7c479d2bdf49d0fa58f401e45acd0e7cb5e77d9"
+    },
+    {
+      "path": "game/dragon-fx-14.rgba",
+      "bytes": 262152,
+      "sha256": "be3c70362801ea0bf80fc7cb0fb38c0d35674fbfdb8409bd9d472ada85b8c8a2"
+    },
+    {
+      "path": "game/dragon-fx-15.rgba",
+      "bytes": 65544,
+      "sha256": "4bc3b875009f559646f1bb67940c41c575938366dcc9b0ea6be167041f97e9be"
+    },
+    {
+      "path": "game/dragon-fx-2.rgba",
+      "bytes": 65544,
+      "sha256": "5220342fe6dcfcfdbd75647245ca4e6dda692b12b2cba1fc4eb62abd0f2c70cd"
+    },
+    {
+      "path": "game/dragon-fx-3.rgba",
+      "bytes": 262152,
+      "sha256": "e919551bae27208c1b94a9da591d8861d56bc661eba4d6ed402c61d71aaae014"
+    },
+    {
+      "path": "game/dragon-fx-4.rgba",
+      "bytes": 65544,
+      "sha256": "5220342fe6dcfcfdbd75647245ca4e6dda692b12b2cba1fc4eb62abd0f2c70cd"
+    },
+    {
+      "path": "game/dragon-fx-5.rgba",
+      "bytes": 262152,
+      "sha256": "e919551bae27208c1b94a9da591d8861d56bc661eba4d6ed402c61d71aaae014"
+    },
+    {
+      "path": "game/dragon-fx-6.rgba",
+      "bytes": 262152,
+      "sha256": "be0b952fa96783c197846244e115943629a3126772467781f48d14fb6864cc41"
+    },
+    {
+      "path": "game/dragon-fx-7.rgba",
+      "bytes": 16392,
+      "sha256": "1172335025557ff50a45731ac6d2fbe2129ab65be6fec1b16a12dd433dfb131a"
+    },
+    {
+      "path": "game/dragon-fx-8.rgba",
+      "bytes": 65544,
+      "sha256": "66d50ada299267d164d816b5e7c479d2bdf49d0fa58f401e45acd0e7cb5e77d9"
+    },
+    {
+      "path": "game/dragon-fx-9.rgba",
+      "bytes": 262152,
+      "sha256": "be3c70362801ea0bf80fc7cb0fb38c0d35674fbfdb8409bd9d472ada85b8c8a2"
+    },
+    {
+      "path": "game/dragon-iceball-0.rgba",
+      "bytes": 65544,
+      "sha256": "626ba86dbf38f0bf190605238daaf108bcb9f4989a686eb30f4ea1af629da5cb"
+    },
+    {
+      "path": "game/dragon-iceball.mesh",
+      "bytes": 2273,
+      "sha256": "f97d05abd4209f53073f542565a347404e517d2ab62dabd99e80fe5517ff5713"
+    },
+    {
+      "path": "game/dragon-texture-0.rgba",
+      "bytes": 4194312,
+      "sha256": "a2d0682b47346cbd94643a6797af946140444f658bd7d30943b6b8fdae752dbf"
+    },
+    {
+      "path": "game/dragon-texture-1.rgba",
+      "bytes": 4194312,
+      "sha256": "8d9c53f55241ab18b5e04bcdb334eb9bd52e0ecee34219cbadc75527f0439570"
+    },
+    {
+      "path": "game/dragon-texture-2.rgba",
+      "bytes": 4194312,
+      "sha256": "48de9aca04835e435a3fdc5457545e47feb9b9be1374a682af8142ad6b37de3a"
+    },
+    {
+      "path": "game/dragon-texture-3.rgba",
+      "bytes": 4194312,
+      "sha256": "cfe23433bd61f4abc3736c6df0994b546f6c46d583620a233387f77b70c0d45b"
+    },
+    {
+      "path": "game/dragon-texture-4.rgba",
+      "bytes": 4194312,
+      "sha256": "d5c5adbaa45276c2bf11ba3084e001ac2c8798acde81f6069f1d13fa5518f5b2"
+    },
+    {
+      "path": "game/dragons.bin",
+      "bytes": 1162,
+      "sha256": "c5cdd664d040a8b24d9b82791644ef9f96ad5c680fbab5f6ca5be72338bfdfa6"
+    },
+    {
+      "path": "game/effect-TorchFire.rgba",
+      "bytes": 262152,
+      "sha256": "e919551bae27208c1b94a9da591d8861d56bc661eba4d6ed402c61d71aaae014"
+    },
+    {
+      "path": "game/effect-TorchSmoke.rgba",
+      "bytes": 262152,
+      "sha256": "be0b952fa96783c197846244e115943629a3126772467781f48d14fb6864cc41"
+    },
+    {
+      "path": "game/enemies.bin",
+      "bytes": 14940,
+      "sha256": "dda4e9b89e7f1e3b537a3eb13a849690ea2ae08f51e7b3a031faa3551082a3a1"
+    },
+    {
+      "path": "game/enemy-texture-0.rgba",
+      "bytes": 4194312,
+      "sha256": "4d9e9b33a30ab2e87206966e29fef4d7afa082155bee05971c4c02b039414260"
+    },
+    {
+      "path": "game/enemy-texture-1.rgba",
+      "bytes": 4194312,
+      "sha256": "2790a26c4dfd391e4ee91ac842ea9f0960ab7667d8b8ff17156b3edd0be450ec"
+    },
+    {
+      "path": "game/enemy-texture-10.rgba",
+      "bytes": 4194312,
+      "sha256": "e3feed9f48a825953915edc4d4621d9d35d683ff0347f2fb034c0254b41a1976"
+    },
+    {
+      "path": "game/enemy-texture-11.rgba",
+      "bytes": 4194312,
+      "sha256": "a17b112fe7158b3a650976fe4d600c11a64ef330a310270381688c4e919c7a6f"
+    },
+    {
+      "path": "game/enemy-texture-12.rgba",
+      "bytes": 4194312,
+      "sha256": "0fcb20b63244da78b6fdf391e12543a2bf8398fc8777397e3fa9041e5b12a367"
+    },
+    {
+      "path": "game/enemy-texture-14.rgba",
+      "bytes": 4194312,
+      "sha256": "4779b3d2400d5ccf5fc3529c2b91d495080d8ace376c6120a1be5ee227b80d48"
+    },
+    {
+      "path": "game/enemy-texture-2.rgba",
+      "bytes": 4194312,
+      "sha256": "8c697495baf27a5c58dbfa7c68127adec2f58936686a949d65de18c5fbc21918"
+    },
+    {
+      "path": "game/enemy-texture-3.rgba",
+      "bytes": 4194312,
+      "sha256": "6be0c896eca4bee43e7f37f53051a42ba8596d2fd3361c8044b6cb759f9750a2"
+    },
+    {
+      "path": "game/enemy-texture-4.rgba",
+      "bytes": 4194312,
+      "sha256": "b46416023019c7a9d92acd44c5e155cb2439365de44f5dfb83a45604e6edf536"
+    },
+    {
+      "path": "game/enemy-texture-5.rgba",
+      "bytes": 4194312,
+      "sha256": "f9e178a9ba22143ca92e402e21410ee533c862287fba3ee5eb1c9252641a5152"
+    },
+    {
+      "path": "game/enemy-texture-6.rgba",
+      "bytes": 4194312,
+      "sha256": "d99ec4e3822d67b254e053f81ca3d12607ecd9a9e8c8ab0be34f57067df71cf9"
+    },
+    {
+      "path": "game/enemy-texture-7.rgba",
+      "bytes": 4194312,
+      "sha256": "aba9917fee11931685bfebaa4691baf2fb46dd74645afdbd2583e6010f208be8"
+    },
+    {
+      "path": "game/enemy-texture-8.rgba",
+      "bytes": 4194312,
+      "sha256": "df8bc2d31b6e1341f56794b611d27b8879d641c261b61abff94d755c94dcb5fc"
+    },
+    {
+      "path": "game/enemy-texture-9.rgba",
+      "bytes": 4194312,
+      "sha256": "b5b6683e639758285c301d38cdfaac827e8704ff14870a380eacfb1c798e5344"
+    },
+    {
+      "path": "game/gameplay.bin",
+      "bytes": 4796,
+      "sha256": "e86d562a4712c3c07c133889e7564649cb8fb8c9ec6d4179cd52218133830264"
+    },
+    {
+      "path": "game/generator.tables",
+      "bytes": 8616,
+      "sha256": "acb0bd30a21d3ed3b1744a7032594148d651154767a3c5eb6aee874e284dedbf"
+    },
+    {
+      "path": "game/hand-tracking.bin",
+      "bytes": 136,
+      "sha256": "efa40df54694fad5f8de909361cbe38945d1604e27e8812e4946977a61a10aae"
+    },
+    {
+      "path": "game/hud-CrossHair.rgba",
+      "bytes": 3256,
+      "sha256": "1c61453766fba0096c5818d0543447501f88754f99f3eedcd17dc37a6dc246a7"
+    },
+    {
+      "path": "game/hud-CrossHairTick.rgba",
+      "bytes": 104,
+      "sha256": "080de0853e63dbfaf7c0e69b1c18b7a6e3dbafad73801efc081f64fc2bc8c5fc"
+    },
+    {
+      "path": "game/hud-HealthBarEmpty.rgba",
+      "bytes": 36808,
+      "sha256": "7eec674ee048de8def9d08a760f872ca4704f75714706288142799200456095e"
+    },
+    {
+      "path": "game/hud-HealthBarFull.rgba",
+      "bytes": 24408,
+      "sha256": "312fc07362eb914e75a967c3a4b3b4a2095ce61d58f9a76a728c046fedfc13ca"
+    },
+    {
+      "path": "game/hud-HudGrid.rgba",
+      "bytes": 130840,
+      "sha256": "5d595865bbf80f582c88bbce611d84353c0ebc0d67080b50d83a99d3675e1728"
+    },
+    {
+      "path": "game/hud-Selector.rgba",
+      "bytes": 23112,
+      "sha256": "74346c62a561c8d75d5e7123de1ae459d02ad2e4306f286bedd3bb5ca050e6c1"
+    },
+    {
+      "path": "game/hud-StaminaBarEmpty.rgba",
+      "bytes": 36808,
+      "sha256": "35c470b98ace69b8f129fb890dc0f2f2aa1b22c0e84df21bc79d23f612ce1e8f"
+    },
+    {
+      "path": "game/hud-font.rgba",
+      "bytes": 2097160,
+      "sha256": "683f3d36c9d58b475ba1ae34c43b8b36c23d0669509c1b9ceeda203275102f96"
+    },
+    {
+      "path": "game/hud-items.rgba",
+      "bytes": 2621448,
+      "sha256": "08f7e76b44c428b01ddac6a2db5c8977a5e4f5799b9dbd14042fc070cbe5219c"
+    },
+    {
+      "path": "game/hud.font",
+      "bytes": 524,
+      "sha256": "688eac6067110a4a13fe8d7d0f174911c800a1cc1d9453996d61f1b9eefefd19"
+    },
+    {
+      "path": "game/impact-effects.bin",
+      "bytes": 244,
+      "sha256": "4438a6fc2fa680fd3c91f7c3da61899c3016c919a7de1372e4588b3303570f1d"
+    },
+    {
+      "path": "game/intro-digitaldna.rgba",
+      "bytes": 3686408,
+      "sha256": "aad477eba10a41baf55dbd4aade049dd592e04f488b757b4463588fd980ffe69"
+    },
+    {
+      "path": "game/item-model-0-0.rgba",
+      "bytes": 1048584,
+      "sha256": "a11da667fbe784de98c35232c2cae84fa058bca85787cbce4faee7151538d82b"
+    },
+    {
+      "path": "game/item-model-0-1.rgba",
+      "bytes": 1048584,
+      "sha256": "a11da667fbe784de98c35232c2cae84fa058bca85787cbce4faee7151538d82b"
+    },
+    {
+      "path": "game/item-model-0.mesh",
+      "bytes": 28378,
+      "sha256": "d0e5d51328a3bae61e345aef2e60451f5cbbbb85f92eac8e3bc7d38827e31843"
+    },
+    {
+      "path": "game/item-model-1-0.rgba",
+      "bytes": 131080,
+      "sha256": "ac3d8fefbaeffd8b429853f36a91f32b72e772d6963c12136e94affedea8ce1b"
+    },
+    {
+      "path": "game/item-model-1-1.rgba",
+      "bytes": 65544,
+      "sha256": "ed8b830091bed0dfb1e87016d695e8c03581b74e7578bef556dce18b41ba7b0a"
+    },
+    {
+      "path": "game/item-model-1.mesh",
+      "bytes": 26062,
+      "sha256": "74a438d86a796ec75ca7bde4864f14708e81f01ecf708a23da59e7c8b9d141a4"
+    },
+    {
+      "path": "game/item-model-10-0.rgba",
+      "bytes": 1048584,
+      "sha256": "5bfc12b5d50b9e8cd173d9b8e53cae946d092f15688df7f24a079d00d45659f6"
+    },
+    {
+      "path": "game/item-model-10.mesh",
+      "bytes": 14112,
+      "sha256": "446d0e890f04924e8f9dd8414db7db4fbe55ae8f3ff51b2ed947628e2fdfb78e"
+    },
+    {
+      "path": "game/item-model-11-0.rgba",
+      "bytes": 1048584,
+      "sha256": "93c2ff676bf22f768a4fd1528b49bc2760012df87c4dacad4aa35c235a0badaf"
+    },
+    {
+      "path": "game/item-model-11.mesh",
+      "bytes": 14112,
+      "sha256": "e30d145c789115cf0e866a8c47c417e8c3ca5d678358501a4ccc4d327a96afa2"
+    },
+    {
+      "path": "game/item-model-12-0.rgba",
+      "bytes": 1048584,
+      "sha256": "9d2d0721da1eec0564959d1680e60f1ae6ec7ec1e013f64b454a4de392afbfa7"
+    },
+    {
+      "path": "game/item-model-12.mesh",
+      "bytes": 14112,
+      "sha256": "720fca169ef9855b2844be850c51d9715711914869005f25cf45c3e5e0ee942f"
+    },
+    {
+      "path": "game/item-model-13-0.rgba",
+      "bytes": 1048584,
+      "sha256": "9d2d0721da1eec0564959d1680e60f1ae6ec7ec1e013f64b454a4de392afbfa7"
+    },
+    {
+      "path": "game/item-model-13.mesh",
+      "bytes": 14112,
+      "sha256": "f3dcb6cca07e6ec8f62158164229744089659a9bd49d5d7b257f5467709c9257"
+    },
+    {
+      "path": "game/item-model-14-0.rgba",
+      "bytes": 65544,
+      "sha256": "09fed2cdd4f4d7765fce6fdf50a266bee70cd0190999bea8d5c2252d7ea25e9c"
+    },
+    {
+      "path": "game/item-model-14.mesh",
+      "bytes": 4656,
+      "sha256": "f12a0e789567a33de2e809b8a7a1941bf87b356197cbfd18fb21b96a0f2a70cc"
+    },
+    {
+      "path": "game/item-model-15-0.rgba",
+      "bytes": 262152,
+      "sha256": "e50be9ef299195e4015f79a7318dec22b4733e3a6a1d36eb85a52ee3fc2182d1"
+    },
+    {
+      "path": "game/item-model-15-1.rgba",
+      "bytes": 262152,
+      "sha256": "d3c13d38ced439b2821152d0b30acd06a294204181475497452c1572d1e23a23"
+    },
+    {
+      "path": "game/item-model-15.mesh",
+      "bytes": 22604,
+      "sha256": "3c8b51a992ea99ff4adc8534c8d9b556fc5c5385a0d136004377ec206bd98938"
+    },
+    {
+      "path": "game/item-model-16-0.rgba",
+      "bytes": 262152,
+      "sha256": "77b7aa788d33291dbbc49c472f321f658f3a54c871a4a956d957546806fc2dbf"
+    },
+    {
+      "path": "game/item-model-16.mesh",
+      "bytes": 14360,
+      "sha256": "0849549402219448e3f3c9283b385b82d22aa9d246e4d7888bcc0dfd9efe5991"
+    },
+    {
+      "path": "game/item-model-17-0.rgba",
+      "bytes": 262152,
+      "sha256": "df6eadc5f9ba007c06eb59d9f2e6d61f536c13b13fc357e2f02c75e87feb74d1"
+    },
+    {
+      "path": "game/item-model-17.mesh",
+      "bytes": 5456,
+      "sha256": "411fd95815f9a35ccb8dbda0e77a810db357d67927390188bd9e83dae10bf74c"
+    },
+    {
+      "path": "game/item-model-18-0.rgba",
+      "bytes": 262152,
+      "sha256": "082bdef1ecb7697cf526ad1a30dc674bad8d10f3491478accb21d3571257c860"
+    },
+    {
+      "path": "game/item-model-18-1.rgba",
+      "bytes": 262152,
+      "sha256": "082bdef1ecb7697cf526ad1a30dc674bad8d10f3491478accb21d3571257c860"
+    },
+    {
+      "path": "game/item-model-18.mesh",
+      "bytes": 18140,
+      "sha256": "a9d22aacdadcce0c0735d4b2c5d3a307fa7893c305f825ec0cdd5e703c274c0b"
+    },
+    {
+      "path": "game/item-model-19-0.rgba",
+      "bytes": 262152,
+      "sha256": "082bdef1ecb7697cf526ad1a30dc674bad8d10f3491478accb21d3571257c860"
+    },
+    {
+      "path": "game/item-model-19-1.rgba",
+      "bytes": 262152,
+      "sha256": "082bdef1ecb7697cf526ad1a30dc674bad8d10f3491478accb21d3571257c860"
+    },
+    {
+      "path": "game/item-model-19.mesh",
+      "bytes": 18140,
+      "sha256": "522fa488eb32d651036ccf3dbede0b1574764c98a0f41e23e2ffaecd98466fca"
+    },
+    {
+      "path": "game/item-model-2-0.rgba",
+      "bytes": 1048584,
+      "sha256": "33ad6f8ed2d835969edad1e8fad0bee7935edcb318ff5bb4b1cc3b81b0cb6e68"
+    },
+    {
+      "path": "game/item-model-2-1.rgba",
+      "bytes": 1048584,
+      "sha256": "33ad6f8ed2d835969edad1e8fad0bee7935edcb318ff5bb4b1cc3b81b0cb6e68"
+    },
+    {
+      "path": "game/item-model-2.mesh",
+      "bytes": 103282,
+      "sha256": "4073dca5d2201dae0697b6bae482594bdf3c290c3df0536ef05bcd7485d2bdb4"
+    },
+    {
+      "path": "game/item-model-20-0.rgba",
+      "bytes": 262152,
+      "sha256": "082bdef1ecb7697cf526ad1a30dc674bad8d10f3491478accb21d3571257c860"
+    },
+    {
+      "path": "game/item-model-20-1.rgba",
+      "bytes": 262152,
+      "sha256": "082bdef1ecb7697cf526ad1a30dc674bad8d10f3491478accb21d3571257c860"
+    },
+    {
+      "path": "game/item-model-20.mesh",
+      "bytes": 18140,
+      "sha256": "abdf2bbf2a774f8f62dc62a9772aad9c6756653090a39a4e77b07d92bdde0e17"
+    },
+    {
+      "path": "game/item-model-21-0.rgba",
+      "bytes": 262152,
+      "sha256": "be0be7e26daad54d27543dde9fb560ad371f1623405444a3b50d3dc0d038478b"
+    },
+    {
+      "path": "game/item-model-21-1.rgba",
+      "bytes": 262152,
+      "sha256": "be0be7e26daad54d27543dde9fb560ad371f1623405444a3b50d3dc0d038478b"
+    },
+    {
+      "path": "game/item-model-21.mesh",
+      "bytes": 18140,
+      "sha256": "086c21d3243e8cd0d7264bbccf9ad08fc0f595fd1a94406d2272063af35f2601"
+    },
+    {
+      "path": "game/item-model-22-0.rgba",
+      "bytes": 1048584,
+      "sha256": "7e1504f4156c7a52f7602db455ca88f924f1efcc41fe8b3ce41173c658638a5c"
+    },
+    {
+      "path": "game/item-model-22.mag",
+      "bytes": 3194,
+      "sha256": "154a8d862aab69582ebdf4ef00c89e3f64f23243703e8d37e8b58037c3d9bbef"
+    },
+    {
+      "path": "game/item-model-22.mesh",
+      "bytes": 121948,
+      "sha256": "1cc675623545822d0e58548a1cf73b2573258cf163bdb5d8336a8ce519ab7f12"
+    },
+    {
+      "path": "game/item-model-23-0.rgba",
+      "bytes": 1048584,
+      "sha256": "77c77ea7afddc75e6967168d9638c2a727b8f768ec11f4c3a1ecdf7a523f67b5"
+    },
+    {
+      "path": "game/item-model-23.mesh",
+      "bytes": 14096,
+      "sha256": "9e38b34735f3b05be68893d76d93208546c4c00182fcde6c177439c19043aede"
+    },
+    {
+      "path": "game/item-model-24-0.rgba",
+      "bytes": 4194312,
+      "sha256": "a49536f47a21cf85df422915b5413dafd02dfbb422d5751ebf346c32e90afdf4"
+    },
+    {
+      "path": "game/item-model-24.mag",
+      "bytes": 3194,
+      "sha256": "154a8d862aab69582ebdf4ef00c89e3f64f23243703e8d37e8b58037c3d9bbef"
+    },
+    {
+      "path": "game/item-model-24.mesh",
+      "bytes": 121948,
+      "sha256": "5e79caa32bd010ab2461e2a5a615de4f2705375fdee4dad081d188497f8ca9de"
+    },
+    {
+      "path": "game/item-model-25-0.rgba",
+      "bytes": 4194312,
+      "sha256": "c06eb12724cf104b62b8f12e575df40e4a408cefc26fdcc1bcaf9f4db77809e7"
+    },
+    {
+      "path": "game/item-model-25.mag",
+      "bytes": 1898,
+      "sha256": "ff115fab4dec76a403b3c8c3233be421394dacd84180b2db48d807516e6b1114"
+    },
+    {
+      "path": "game/item-model-25.mesh",
+      "bytes": 69636,
+      "sha256": "0bee873708521739d27b44adf526c256350f50f75b759353f82ea532393dbc5a"
+    },
+    {
+      "path": "game/item-model-26-0.rgba",
+      "bytes": 4194312,
+      "sha256": "e385977610cb515ec0bf27400bb77c1a0985886590c0ac4a4b4bd48ac7402ca2"
+    },
+    {
+      "path": "game/item-model-26.mag",
+      "bytes": 1950,
+      "sha256": "5860474d507a7d84f9ee8821ad6476b0849295351172cfa28095dfe49e040026"
+    },
+    {
+      "path": "game/item-model-26.mesh",
+      "bytes": 59920,
+      "sha256": "f3072aa4f579e8524f28f857cd5884f978a0252355379d881445ed6eefaaef7f"
+    },
+    {
+      "path": "game/item-model-27-0.rgba",
+      "bytes": 4194312,
+      "sha256": "f898445b8370a163aa728990251db6998043c40cf74b2ba875638fa41d25bee5"
+    },
+    {
+      "path": "game/item-model-27.mag",
+      "bytes": 3113,
+      "sha256": "498b5d43ab31876177c4f63abd5ea5efba60be5a79b8d518512e845ab5252447"
+    },
+    {
+      "path": "game/item-model-27.mesh",
+      "bytes": 130676,
+      "sha256": "fc073ecf9874a7f031f0be39d6914b41d8ce93426304c06082c8b5cf9bb4dd22"
+    },
+    {
+      "path": "game/item-model-28-0.rgba",
+      "bytes": 4194312,
+      "sha256": "c6cca6da530144c8727c821d6f5dd9d1148ccb90c6eacf307e0f901633574757"
+    },
+    {
+      "path": "game/item-model-28.mesh",
+      "bytes": 81480,
+      "sha256": "cf5f893420a5c54c6d7c0020e88c813dd7ada292d8527d43248e23dbfa22ee16"
+    },
+    {
+      "path": "game/item-model-29-0.rgba",
+      "bytes": 4194312,
+      "sha256": "72224504a17727b35901ef85b196cfe5c869a235011b3ee0bdaf8a090f957c95"
+    },
+    {
+      "path": "game/item-model-29-1.rgba",
+      "bytes": 72,
+      "sha256": "33e82abea13bdd305f13a34cac3aaf6d657f5d0c672a58def819441c194003a2"
+    },
+    {
+      "path": "game/item-model-29.mag",
+      "bytes": 2158,
+      "sha256": "45264472b6ed691aa437244fcec12cadc7f1c542968145c346918bc7a79b9d76"
+    },
+    {
+      "path": "game/item-model-29.mesh",
+      "bytes": 55484,
+      "sha256": "9db600197ae5a21d1fadfdc874d5229a19fa0666cd9abb40cae5e3b1cfa487d1"
+    },
+    {
+      "path": "game/item-model-3-0.rgba",
+      "bytes": 1048584,
+      "sha256": "4a521bcbff56ca35ba8daaf0d12c4056fc623c7bd7a3d2f25d8db107240ee64c"
+    },
+    {
+      "path": "game/item-model-3-1.rgba",
+      "bytes": 1048584,
+      "sha256": "4a521bcbff56ca35ba8daaf0d12c4056fc623c7bd7a3d2f25d8db107240ee64c"
+    },
+    {
+      "path": "game/item-model-3.mesh",
+      "bytes": 20330,
+      "sha256": "3ce964af64d63930010d809744b73ba7ad14c91c2d18db689a4aacdae63d79de"
+    },
+    {
+      "path": "game/item-model-30-0.rgba",
+      "bytes": 4194312,
+      "sha256": "ee24c975e3d67f92b0cf693da52956acf72ceba923ebf7ac122c5653ff486fc0"
+    },
+    {
+      "path": "game/item-model-30-1.rgba",
+      "bytes": 72,
+      "sha256": "e480393571ee1697264c0a78f311db69e37cbd8535cc9f0b905c959ef6f4e901"
+    },
+    {
+      "path": "game/item-model-30.mesh",
+      "bytes": 35628,
+      "sha256": "26621d9a18dfa74c6fe40e261dc2550bee11c8648fb65f02bb3468faa370f9cd"
+    },
+    {
+      "path": "game/item-model-31-0.rgba",
+      "bytes": 1048584,
+      "sha256": "9e1efd30eda63a3f2319331998a7d261c02e46c3bc6b85665619ec9da860f0bf"
+    },
+    {
+      "path": "game/item-model-31-1.rgba",
+      "bytes": 72,
+      "sha256": "e480393571ee1697264c0a78f311db69e37cbd8535cc9f0b905c959ef6f4e901"
+    },
+    {
+      "path": "game/item-model-31.mag",
+      "bytes": 1157,
+      "sha256": "c1c4ba2704416c4565360785dddf8793bd092185987168725d7940196140d881"
+    },
+    {
+      "path": "game/item-model-31.mesh",
+      "bytes": 47712,
+      "sha256": "84f521a2e1da2df31cc7a85a5a64f04284299832cd619070470e8cbfa16ccf33"
+    },
+    {
+      "path": "game/item-model-32-0.rgba",
+      "bytes": 4194312,
+      "sha256": "1378c3b68e88efaecb53120997f0b2355966c79dca7dca0543b28277fde84394"
+    },
+    {
+      "path": "game/item-model-32-1.rgba",
+      "bytes": 72,
+      "sha256": "e480393571ee1697264c0a78f311db69e37cbd8535cc9f0b905c959ef6f4e901"
+    },
+    {
+      "path": "game/item-model-32.mag",
+      "bytes": 2849,
+      "sha256": "34426d36a1767222d8fce08f726f4ecd8e66a33de106481cef14288a1120a95d"
+    },
+    {
+      "path": "game/item-model-32.mesh",
+      "bytes": 80956,
+      "sha256": "1f3ad8ad9291501c0710ac9e7b72e1c6a14e04582548dd28474517a05a8e8e23"
+    },
+    {
+      "path": "game/item-model-33-0.rgba",
+      "bytes": 8388616,
+      "sha256": "ad7e79b66aa3505d1b656ac918efd19d1a4e278a37614241946635e4793c521e"
+    },
+    {
+      "path": "game/item-model-33-1.rgba",
+      "bytes": 72,
+      "sha256": "e480393571ee1697264c0a78f311db69e37cbd8535cc9f0b905c959ef6f4e901"
+    },
+    {
+      "path": "game/item-model-33.mesh",
+      "bytes": 47312,
+      "sha256": "619a2f20f60d8f1159f0caf09415bbd850b9943015e56306e9bfd9dd5696cb27"
+    },
+    {
+      "path": "game/item-model-34-0.rgba",
+      "bytes": 1048584,
+      "sha256": "861a4fd00c3d2c3d4ac0d31d114a0aa68f4dd643afb98c8e8f009544f8e3c187"
+    },
+    {
+      "path": "game/item-model-34-1.rgba",
+      "bytes": 72,
+      "sha256": "e480393571ee1697264c0a78f311db69e37cbd8535cc9f0b905c959ef6f4e901"
+    },
+    {
+      "path": "game/item-model-34.mag",
+      "bytes": 1076,
+      "sha256": "a98977cd650502e7d66f2987f2820398265df6ee1c5a8e188f22b3e4be1de602"
+    },
+    {
+      "path": "game/item-model-34.mesh",
+      "bytes": 52400,
+      "sha256": "f4aa6b378a87f65c1e013ce022acbc5c67cf9a64c9bef5e3407fab36d5b89d3b"
+    },
+    {
+      "path": "game/item-model-35-0.rgba",
+      "bytes": 4194312,
+      "sha256": "4d9e9b33a30ab2e87206966e29fef4d7afa082155bee05971c4c02b039414260"
+    },
+    {
+      "path": "game/item-model-35.mesh",
+      "bytes": 30596,
+      "sha256": "272eb6fb69e632f11e99956e598229ce3f37c7d59356c0caced46525d6eab36c"
+    },
+    {
+      "path": "game/item-model-35.skin",
+      "bytes": 4890246,
+      "sha256": "1406fb394fd898aa68f0e7ed70c1fdd265a19e712678642d2768584a4d1ba360"
+    },
+    {
+      "path": "game/item-model-36-0.rgba",
+      "bytes": 4194312,
+      "sha256": "aba9917fee11931685bfebaa4691baf2fb46dd74645afdbd2583e6010f208be8"
+    },
+    {
+      "path": "game/item-model-36.mesh",
+      "bytes": 50896,
+      "sha256": "5a5389856764439948b75fc27d3e207ad2617604c5638dd8936c96f89fcb8284"
+    },
+    {
+      "path": "game/item-model-36.skin",
+      "bytes": 2593685,
+      "sha256": "ae8071f647229afd35adddcab107634a01f1768e89dcc4aadac5a526eb604269"
+    },
+    {
+      "path": "game/item-model-37-0.rgba",
+      "bytes": 4194312,
+      "sha256": "aba9917fee11931685bfebaa4691baf2fb46dd74645afdbd2583e6010f208be8"
+    },
+    {
+      "path": "game/item-model-37.mesh",
+      "bytes": 40568,
+      "sha256": "a9a63dff585788030cd78211603d5949bfa8e1f2c0587cf8d3f534a35edaf5d5"
+    },
+    {
+      "path": "game/item-model-37.skin",
+      "bytes": 2226244,
+      "sha256": "012c2a243785a5b685eb42c80b82de3115e62e637f4b38ccfad8a6eae5bdc2f5"
+    },
+    {
+      "path": "game/item-model-38-0.rgba",
+      "bytes": 4194312,
+      "sha256": "aba9917fee11931685bfebaa4691baf2fb46dd74645afdbd2583e6010f208be8"
+    },
+    {
+      "path": "game/item-model-38.mesh",
+      "bytes": 47836,
+      "sha256": "a88cc468f8f59a3b5332af33d5ab247f47ac431b805dd490e10b3d48e8585ae5"
+    },
+    {
+      "path": "game/item-model-38.skin",
+      "bytes": 2241608,
+      "sha256": "ec9072e0b7d67c7d4868cfaa3b35e62092f7d4ac952c0714060048412b247cb4"
+    },
+    {
+      "path": "game/item-model-39-0.rgba",
+      "bytes": 4194312,
+      "sha256": "aba9917fee11931685bfebaa4691baf2fb46dd74645afdbd2583e6010f208be8"
+    },
+    {
+      "path": "game/item-model-39.mesh",
+      "bytes": 50632,
+      "sha256": "4c5d319e3ffa48344e3bc1f8ea350cf27923dad34862fa4891ad174e28b094ff"
+    },
+    {
+      "path": "game/item-model-39.skin",
+      "bytes": 2415556,
+      "sha256": "5b084b9c10c308e48602d130bbd5c0b06a63d5b2e98a09e03e15e72f7cab9a21"
+    },
+    {
+      "path": "game/item-model-4-0.rgba",
+      "bytes": 4194312,
+      "sha256": "1a788193571eee8c55c50a4648cb00cd15fc42b47036eac14dd47b1c6ba791f3"
+    },
+    {
+      "path": "game/item-model-4.mesh",
+      "bytes": 99799,
+      "sha256": "3276ccfe994e71f75a5ef0894b68395c908c364afd671bad38cbaaf1d9730062"
+    },
+    {
+      "path": "game/item-model-40-0.rgba",
+      "bytes": 4194312,
+      "sha256": "0fcb20b63244da78b6fdf391e12543a2bf8398fc8777397e3fa9041e5b12a367"
+    },
+    {
+      "path": "game/item-model-40.mesh",
+      "bytes": 68152,
+      "sha256": "c9d4605202fafac6fc06c34094f38f5e268a658185b7532788cba053e75b1c2b"
+    },
+    {
+      "path": "game/item-model-40.skin",
+      "bytes": 2002624,
+      "sha256": "dece7e8acfd5d0a4f348de1860defcbb20fdf0471154255335e09b21883fef8b"
+    },
+    {
+      "path": "game/item-model-41-0.rgba",
+      "bytes": 4194312,
+      "sha256": "4779b3d2400d5ccf5fc3529c2b91d495080d8ace376c6120a1be5ee227b80d48"
+    },
+    {
+      "path": "game/item-model-41.mesh",
+      "bytes": 17384,
+      "sha256": "c1f7736e9ff422085e1b7ddd0e8fec70ca28e8f64bdc308dd80bce6cd792bab9"
+    },
+    {
+      "path": "game/item-model-41.skin",
+      "bytes": 852169,
+      "sha256": "1fab078314b622ff3b29ae4ce0ce22ad21d4f34b6633ba6e1494684e3e188fa1"
+    },
+    {
+      "path": "game/item-model-5-0.rgba",
+      "bytes": 262152,
+      "sha256": "0d910f148719eccdbe3b2a0fff65aa7cd6cfabaf5a366cfda2cc2a62565cdda0"
+    },
+    {
+      "path": "game/item-model-5-1.rgba",
+      "bytes": 262152,
+      "sha256": "0d910f148719eccdbe3b2a0fff65aa7cd6cfabaf5a366cfda2cc2a62565cdda0"
+    },
+    {
+      "path": "game/item-model-5.mesh",
+      "bytes": 5558,
+      "sha256": "81ded47b0a1b8a4cbb3d13b5f1f20f7f759be325529f275bb07085da46d80cc5"
+    },
+    {
+      "path": "game/item-model-6-0.rgba",
+      "bytes": 4194312,
+      "sha256": "a9f999ac84cbc4a4681b33c30a5950faf55c52bbcb714bb56add0b76f5d11fb5"
+    },
+    {
+      "path": "game/item-model-6.mesh",
+      "bytes": 12115,
+      "sha256": "3be5c525487133b892f248a21e1260648cdf6c1f038b0e40a1b21a3751de0410"
+    },
+    {
+      "path": "game/item-model-7-0.rgba",
+      "bytes": 4194312,
+      "sha256": "a9f999ac84cbc4a4681b33c30a5950faf55c52bbcb714bb56add0b76f5d11fb5"
+    },
+    {
+      "path": "game/item-model-7-1.rgba",
+      "bytes": 4194312,
+      "sha256": "a9f999ac84cbc4a4681b33c30a5950faf55c52bbcb714bb56add0b76f5d11fb5"
+    },
+    {
+      "path": "game/item-model-7.mesh",
+      "bytes": 70890,
+      "sha256": "6376e58758e90fb9dbc6b13f86cec161151e0acbced17199b3be3c843506cf7b"
+    },
+    {
+      "path": "game/item-model-8-0.rgba",
+      "bytes": 262152,
+      "sha256": "950eabe2edd9da095fd30e0f86b44e07e4eba7ce7fc409f592fadc4931d83620"
+    },
+    {
+      "path": "game/item-model-8-1.rgba",
+      "bytes": 262152,
+      "sha256": "950eabe2edd9da095fd30e0f86b44e07e4eba7ce7fc409f592fadc4931d83620"
+    },
+    {
+      "path": "game/item-model-8.mesh",
+      "bytes": 62590,
+      "sha256": "f6fb1be7b7837eed1003e24aa99517bcd593303ad29d2c4e76614ef78a69b56d"
+    },
+    {
+      "path": "game/item-model-9-0.rgba",
+      "bytes": 262152,
+      "sha256": "6a09091a3d139943c9bf619ca62ecd957566916cb97fbbd90f6eece7184b1e70"
+    },
+    {
+      "path": "game/item-model-9.mesh",
+      "bytes": 54271,
+      "sha256": "8f9b78b646507510bfd06eb221943475f66986ef55fdbd29d5fdc9aa430900f9"
+    },
+    {
+      "path": "game/item-mounts.bin",
+      "bytes": 1326,
+      "sha256": "ec0ba5235a89b1745ebd135a2351a5abea60af689f16f413239c954adcea945d"
+    },
+    {
+      "path": "game/item-visibility.bin",
+      "bytes": 1326,
+      "sha256": "27af675b81b2598719eb49d299b8da94933f736eb60d185f29021d9144a00503"
+    },
+    {
+      "path": "game/laser-impact-flash.rgba",
+      "bytes": 65544,
+      "sha256": "5220342fe6dcfcfdbd75647245ca4e6dda692b12b2cba1fc4eb62abd0f2c70cd"
+    },
+    {
+      "path": "game/laser-impact.bin",
+      "bytes": 124,
+      "sha256": "70f5f1c58564f1c5ca5e5b00bf2ae7c4052ff6cc7b42b2b1a3a90876c488f132"
+    },
+    {
+      "path": "game/left.hand",
+      "bytes": 52025,
+      "sha256": "85009df754bf1d738aa22d0156e5f6fe7573cec7f2413d757146a53a6d16dd1b"
+    },
+    {
+      "path": "game/loading-bar.rgba",
+      "bytes": 119624,
+      "sha256": "6c836d1409ef17399cd1040df7b2831953aab7ce68734cc04e31f01e316fac4f"
+    },
+    {
+      "path": "game/magazines.bin",
+      "bytes": 263,
+      "sha256": "211046b0c95b19eb0e3db1f2719f39a313b3497a9875daaecd1b06147828d544"
+    },
+    {
+      "path": "game/menu-ad.rgba",
+      "bytes": 642824,
+      "sha256": "b2d38dd1300c364014e922d8fb1abd5622fd3119a92786c82ff876ff198669de"
+    },
+    {
+      "path": "game/menu-background.rgba",
+      "bytes": 3686408,
+      "sha256": "33df35258bdb802b3153038d73ad02a6f9bda6b1e4ab217d5ecd3a053859e251"
+    },
+    {
+      "path": "game/menu-font.rgba",
+      "bytes": 4718600,
+      "sha256": "f84185e4550c848461c405aba1d5de994dcc04c53c765d67df50fa55fc2392d5"
+    },
+    {
+      "path": "game/menu-logo.rgba",
+      "bytes": 1204288,
+      "sha256": "1bf5cd63fe0842b6241376ff924ca8f458b27c8cf748c92a9b3853f250bd25a5"
+    },
+    {
+      "path": "game/menu.font",
+      "bytes": 528,
+      "sha256": "f6291a781a0f6938a0eeb9084b568eac4f2fef71e68e840a35766dd9b69b15cc"
+    },
+    {
+      "path": "game/particle-timing.bin",
+      "bytes": 212,
+      "sha256": "9160f80916279d09b11537ad638a5a8b0281a4fda83a98e972674bcd7e402002"
+    },
+    {
+      "path": "game/pickaxe-0.rgba",
+      "bytes": 1048584,
+      "sha256": "a11da667fbe784de98c35232c2cae84fa058bca85787cbce4faee7151538d82b"
+    },
+    {
+      "path": "game/pickaxe-1.rgba",
+      "bytes": 1048584,
+      "sha256": "a11da667fbe784de98c35232c2cae84fa058bca85787cbce4faee7151538d82b"
+    },
+    {
+      "path": "game/pickaxe.mesh",
+      "bytes": 28368,
+      "sha256": "95ecb7e2704c150a57ae20a591ed083b179d4e6989b291f7d854538f07a9625e"
+    },
+    {
+      "path": "game/pistol-0.rgba",
+      "bytes": 1048584,
+      "sha256": "861a4fd00c3d2c3d4ac0d31d114a0aa68f4dd643afb98c8e8f009544f8e3c187"
+    },
+    {
+      "path": "game/pistol-1.rgba",
+      "bytes": 72,
+      "sha256": "e480393571ee1697264c0a78f311db69e37cbd8535cc9f0b905c959ef6f4e901"
+    },
+    {
+      "path": "game/pistol.mesh",
+      "bytes": 52386,
+      "sha256": "bdcd0d2bae330ff1a85bf91de4444226a08a6d3c8db9905c5d8578e34e9ad1e4"
+    },
+    {
+      "path": "game/player-0.rgba",
+      "bytes": 4194312,
+      "sha256": "52b2bb23cf4ae28b5bf9b6ed080450a2a2af48b47051009565621d66a16126a5"
+    },
+    {
+      "path": "game/player-body.skin",
+      "bytes": 2177151,
+      "sha256": "89e61a9774a7033e63ee53ed977dac0d98dbf10ad2d5847af038313bd8bf0656"
+    },
+    {
+      "path": "game/player.mesh",
+      "bytes": 433365,
+      "sha256": "7cf4e432ebaa522854b38836561c0bd5e78c6fc42d4def332ed5a231ef8a3edb"
+    },
+    {
+      "path": "game/player.view",
+      "bytes": 9782770,
+      "sha256": "8e6ea78ceaedceb8a1557f0881e5e6c4f25a3e51fa5c8a6b3c2020eec4d35e02"
+    },
+    {
+      "path": "game/reload-motion.bin",
+      "bytes": 57595,
+      "sha256": "cdc694fc2b098f07c5f4ed78975bcc761e93a95616914e3613538a00cb28a3ed"
+    },
+    {
+      "path": "game/rifle-0.rgba",
+      "bytes": 4194312,
+      "sha256": "72224504a17727b35901ef85b196cfe5c869a235011b3ee0bdaf8a090f957c95"
+    },
+    {
+      "path": "game/rifle-1.rgba",
+      "bytes": 72,
+      "sha256": "33e82abea13bdd305f13a34cac3aaf6d657f5d0c672a58def819441c194003a2"
+    },
+    {
+      "path": "game/rifle.mesh",
+      "bytes": 55468,
+      "sha256": "4efb15aa0349757ede9fceb4b114ee62dec40613bf5f639c0262d5afd5ec3431"
+    },
+    {
+      "path": "game/right.hand",
+      "bytes": 52157,
+      "sha256": "a753b17c6bf2dd3ae9e881b49c1247777db262f27f7f723073345f74d2ceed88"
+    },
+    {
+      "path": "game/saber-effects.bin",
+      "bytes": 193,
+      "sha256": "8a5e498c6e9177117eab5b859eeba9453c2bf12bd0a6e35498eca307e37c136e"
+    },
+    {
+      "path": "game/scope-laser-bolt-0.rgba",
+      "bytes": 1048584,
+      "sha256": "8802aa106a722ebb75e88c390b02f92100ff451473d9b336d26e1606c967d283"
+    },
+    {
+      "path": "game/scope-laser-bolt.mesh",
+      "bytes": 243,
+      "sha256": "906ef612a041dbf34a5a800dcb5ac9db8285c08ed12654a5d301d4a2bef57fab"
+    },
+    {
+      "path": "game/scope-reticle.rgba",
+      "bytes": 1166408,
+      "sha256": "b18d2451dfbb0d23a7404dbac7f00c5a450404343e1ac5020478403db91ac845"
+    },
+    {
+      "path": "game/storage-font.rgba",
+      "bytes": 2097160,
+      "sha256": "37e1e095a9130742a839f7f9ae376faba4de557049bf0c1e56830dc3dc7d300d"
+    },
+    {
+      "path": "game/storage.font",
+      "bytes": 524,
+      "sha256": "e26f2f173a49c8fe9a7800de964bb9a6ab9623123aae1625b22fda339f47ea8a"
+    },
+    {
+      "path": "game/terrain.bin",
+      "bytes": 18874400,
+      "sha256": "c8135587cb4a4fd5decffdff4ce452ec3f68c940cd33859ce8bf94616335966d"
+    },
+    {
+      "path": "game/torch-0.rgba",
+      "bytes": 1048584,
+      "sha256": "d13028416c2336f182d4d90d648f52caf35432e23599f55e98ec485b34e23bd2"
+    },
+    {
+      "path": "game/torch-effects.bin",
+      "bytes": 256,
+      "sha256": "5947f0fcd45008b78c7be5812950aeb180ac2e06468253c651aafe599e276ffe"
+    },
+    {
+      "path": "game/torch.mesh",
+      "bytes": 11588,
+      "sha256": "0a0434c0a30b8bd11c1449dc4ddbe67f8e5aa44daf3b4c14d5bf1e516f34fc42"
+    },
+    {
+      "path": "game/ui-BlockUIBack.rgba",
+      "bytes": 2104920,
+      "sha256": "0b7e84be4ce827d9c2ae3d93933461cb09a902604c058f96e792d36be4b9fbdc"
+    },
+    {
+      "path": "game/ui-CraftSelector.rgba",
+      "bytes": 23480,
+      "sha256": "d0d20827d4bde6acaf4eda6c2f040dd29e06387a55a770a8b4b777e063fd431d"
+    },
+    {
+      "path": "game/ui-InventoryGrid.rgba",
+      "bytes": 549128,
+      "sha256": "5f24b256df8023f72487e87159d5a180c21848a1131fa12a047eb368c7ed2c48"
+    },
+    {
+      "path": "game/ui-MaterialsIcon.rgba",
+      "bytes": 4908,
+      "sha256": "8f59fd3aa765450ddc486e3b3156baf492cbfae2694153ccfe0addf92de4fe05"
+    },
+    {
+      "path": "game/ui-SingleGrid.rgba",
+      "bytes": 23112,
+      "sha256": "65c59710f7d606e126d31865f5526e7993df71a5c602af362e0c28efacf48479"
+    },
+    {
+      "path": "game/ui-StructuresIcon.rgba",
+      "bytes": 4908,
+      "sha256": "c7169380db6be94a48d31e3e1f9f0d7dc758f12e9404a5c0d9f63e0f7699ca08"
+    },
+    {
+      "path": "game/ui-Tier2Back.rgba",
+      "bytes": 12488,
+      "sha256": "ec846b99e7a84ae333e3599ac40709db1c622d0b582ab1fb94f0000df5510a63"
+    },
+    {
+      "path": "game/ui-ToolsIcon.rgba",
+      "bytes": 4908,
+      "sha256": "42151241fa3285a9ea661f01320d32b2d8b5c243fff8c71109e6dc085fea05bb"
+    },
+    {
+      "path": "game/ui-WeaponsIcon.rgba",
+      "bytes": 4908,
+      "sha256": "20d590c5fdc59495e86a802c9036ee21387a20b5a45173dbc0d65b50cded0a76"
+    },
+    {
+      "path": "game/view-items.bin",
+      "bytes": 12518,
+      "sha256": "be56d2302b2992d515edd17d87c301423c0f6ec9e9dd66369247eb62a3fc35c2"
+    },
+    {
+      "path": "game/weapon-details.bin",
+      "bytes": 4727,
+      "sha256": "f9227afcf2eda08e30ec7a4fd8b0ce1bc54fce58d5989b11b0dd62e8a0d15e5b"
+    },
+    {
+      "path": "game/weapon-effects.bin",
+      "bytes": 124,
+      "sha256": "306d81b9c36db191fb65ddc05008deef31f4d122be41753bd8621f8104f84f1b"
+    },
+    {
+      "path": "game/weapon-impact-sparks.rgba",
+      "bytes": 65544,
+      "sha256": "e8f3073819276743869d57e02071a50f648c6ad3115468b75fcee75570f14d3c"
+    },
+    {
+      "path": "game/weapon-muzzle-flash-0.rgba",
+      "bytes": 262152,
+      "sha256": "b9258879b68941f549212804ea848d6f93dfc6aeedc482aa5137d5dfc8ee6084"
+    },
+    {
+      "path": "game/weapon-muzzle-flash.mesh",
+      "bytes": 686,
+      "sha256": "9a6c84bbe4f07994d9d7b37ee801fdd97edb0ec600c746e0c4d64300d6599e65"
+    },
+    {
+      "path": "game/weapon-recoil.bin",
+      "bytes": 416,
+      "sha256": "bb0a44d674253b27af8f37fc1ff386f3ce465e22ea0c41e1e11b6117d397cb20"
+    },
+    {
+      "path": "game/weapon-scopes.bin",
+      "bytes": 72,
+      "sha256": "ecb7b151b21e802e34c1b9d761e264abeeeadf95a4a9184845cf338a0b06ca52"
+    },
+    {
+      "path": "game/weapon-smoke.rgba",
+      "bytes": 262152,
+      "sha256": "be0b952fa96783c197846244e115943629a3126772467781f48d14fb6864cc41"
+    },
+    {
+      "path": "game/zombie-0.rgba",
+      "bytes": 4194312,
+      "sha256": "4d9e9b33a30ab2e87206966e29fef4d7afa082155bee05971c4c02b039414260"
+    },
+    {
+      "path": "game/zombie-diffuse.rgba",
+      "bytes": 4194312,
+      "sha256": "4d9e9b33a30ab2e87206966e29fef4d7afa082155bee05971c4c02b039414260"
+    },
+    {
+      "path": "game/zombie.mesh",
+      "bytes": 30589,
+      "sha256": "c6e28714f1b98976df7a76aed0ef464b7c44ab46e3c7a473a53f7a99cb986fbc"
+    }
+  ],
+  "terrainRandomSeed": 541
+}
