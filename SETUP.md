@@ -60,3 +60,7 @@ Setup logs are in `%LOCALAPPDATA%/CastleMinerZ-PCVR-Setup`, in the folder for th
 Close the VR game before updating. Extract the next compatible PC release into the same game folder. Follow that release's notes if a new import is required. Keep `game`, `graphics-hd` and your saves unless instructed otherwise.
 
 To uninstall, remove the added `CastleMinerZVR` folder and the three added launcher files. The original Steam game files remain. Saves and settings stay under `%LOCALAPPDATA%/CastleMinerZ-PCVR`; remove them separately only if you want to erase them.
+
+## v0.57 imports and gameplay
+
+Run setup again after installing this release so it imports the original dragon fire/ice effects and player death clip. Setup keeps a backup of the previous import and preserves existing HD packs. Matching Quest/PC v0.57 adds dragon landing/rest, a red Click to Respawn screen and original far-world Lantern Land terrain near 46.3 km. Physical headset and different-home testing remain pending.

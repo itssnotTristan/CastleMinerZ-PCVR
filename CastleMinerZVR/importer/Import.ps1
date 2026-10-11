@@ -1,7 +1,7 @@
 param(
     [string]$Game = 'C:\Program Files (x86)\Steam\steamapps\common\CastleMiner Z',
     [Parameter(Mandatory=$true)][string]$PrivateOutput,
-    [ValidateSet('base','models','catalog','terrain-pack','presentation','generator','dragons','mode-oracle','effects','enemy-oracle','item-dynamics','crosshair','avatar','barrels','reloads','selector','seed-oracle','weapon-effects','scopes','storage-ui')][string]$Mode = 'base',
+    [ValidateSet('base','models','catalog','terrain-pack','presentation','generator','dragons','dragon-effects','mode-oracle','effects','enemy-oracle','item-dynamics','crosshair','avatar','barrels','reloads','selector','seed-oracle','weapon-effects','scopes','storage-ui')][string]$Mode = 'base',
     [int]$Shard = 0,
     [int]$Shards = 8
 )

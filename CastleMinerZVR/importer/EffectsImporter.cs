@@ -47,6 +47,19 @@ partial class ImportGame {
     }
 
     static void WriteImpact(BinaryWriter w,ParticleEffect e){w.Write(e.NumTilesWide);w.Write(e.NumTilesHigh);w.Write(e.FirstTileToInclude);w.Write(e.LastTileToInclude);w.Write((int)e.BlendMode);foreach(float f in new[]{e.ParticlesPerSecond,(float)e.ParticleLifeTime.TotalSeconds,e.LifetimeVariation,e.HorizontalVelocityMin,e.HorizontalVelocityMax,e.VerticalVelocityMin,e.VerticalVelocityMax,e.Gravity.X,e.Gravity.Y,e.Gravity.Z,e.VelocityEnd})w.Write(f);var a=e.ColorMin.ToVector4();var b=e.ColorMax.ToVector4();foreach(float f in new[]{a.X,a.Y,a.Z,a.W,b.X,b.Y,b.Z,b.W,e.RotateSpeedMin,e.RotateSpeedMax,e.StartSizeMin,e.StartSizeMax,e.EndSizeMin,e.EndSizeMax})w.Write(f);}
+    static void DragonEffects(IServiceProvider services,GraphicsDevice device) {
+        // FireballEntity.Init defines exactly these two original packages.
+        string[] names={"FireTrail","SmokeTrail","FireGlow","FireBallEffect","FlashEffect","FirePuff","BigSmokePuff","BigRockBlast","IceTrail","PuffTrail","IceGlow","IceBallEffect","IceFlash","IcePuff","BigPuff","BigSnowBlast"};
+        using(var content=new OracleContent(services))using(var w=new BinaryWriter(File.Create(Path.Combine(output,"dragon-effects.bin")))) {
+            w.Write(0x31584443);w.Write(names.Length);
+            for(int i=0;i<names.Length;i++) {
+                var e=content.Load<ParticleEffect>("ParticleEffects/"+names[i]);
+                var texture=e.Texture??content.Load<Texture2D>("ParticleEffects/"+Path.GetFileNameWithoutExtension(e.TexturePath)+"_0");
+                Texture(device,texture,"dragon-fx-"+i);WriteImpact(w,e);
+                Console.WriteLine("ORIGINAL_DRAGON_FX role="+i+" effect="+names[i]+" sprite="+e.TexturePath+" colors="+e.ColorMin+"/"+e.ColorMax);
+            }
+        }
+    }
     static void WeaponEffects(IServiceProvider services,GraphicsDevice device) {
         using(var content=new OracleContent(services)) {
             Mesh(device,content.Load<Model>("MuzzleFlash"),"weapon-muzzle-flash");

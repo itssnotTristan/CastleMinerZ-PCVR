@@ -2,13 +2,13 @@
 
 An unofficial PC VR mod for the Steam version of CastleMiner Z, by ItssnotTristan. Play with tracked head movement, motion controllers, two-handed weapons and VR menus. PC graphics include bloom, dynamic shadows, adjustable block parallax and four quality presets.
 
-**[Download the PC VR beta](https://github.com/itssnotTristan/CastleMinerZ-PCVR/releases/tag/v0.56-public-beta)** · **[Full setup guide](SETUP.md)**
+**[Download the PC VR beta](https://github.com/itssnotTristan/CastleMinerZ-PCVR/releases/tag/v0.57-public-beta)** · **[Full setup guide](SETUP.md)**
 
 ## Install
 
 1. Install CastleMiner Z through Steam and launch the original game once. This beta supports game version **1.9.9.8**.
 2. In Steam, right-click CastleMiner Z → **Manage → Browse local files**.
-3. Download `CastleMinerZ-PCVR-v0.56-PublicBeta.zip` from Releases. Extract its **entire contents** into that game folder, beside `CastleMinerZ.exe`.
+3. Download `CastleMinerZ-PCVR-v0.57-PublicBeta.zip` from Releases. Extract its **entire contents** into that game folder, beside `CastleMinerZ.exe`.
 4. Run **Setup CastleMiner Z VR.cmd** and leave its window open until it says setup is complete. It converts the required files from your own installation. The first setup downloads the audio converter from its official release.
 5. Enter **Quest Link or Air Link**, wake both controllers, and make Meta Quest Link your active OpenXR runtime.
 6. Run **Play CastleMiner Z VR.cmd**. Point a controller at **Play Offline** and squeeze its trigger.
@@ -41,7 +41,7 @@ To create an optional HD pack from your local imports, run **Generate HD Texture
 
 ## Multiplayer and updates
 
-This PC beta uses **shared-v0.56**, network protocol **3**, guest checkpoint version **2**, and content fingerprint **15070507204261208425**. Quest peers need the matching v0.56 build and their own imported game files. Earlier Quest public updates, including v0.53, are not the matching release. Unmodified desktop Steam servers are not supported.
+This PC beta uses **shared-v0.57**, network protocol **3**, guest checkpoint version **2**, and content fingerprint **15070507204261208425**. Quest peers need the matching v0.57 build and their own imported game files. Earlier Quest public updates, including v0.53, are not the matching release. Unmodified desktop Steam servers are not supported.
 
 Use Nearby for the same network, or Host Internet / Join Internet for the shared internet world list. Internet connections depend on the directory service and a working peer connection. Different-home PC/Quest headset testing remains pending.
 
@@ -54,3 +54,7 @@ This is a playable beta, with original-game feature parity still in progress. Th
 This repository contains player downloads and local setup tools. Historical private development/test archives are kept separately. Please include your mod version, headset and `pcvr.log` when reporting a problem; remove personal information before sharing logs.
 
 Dependencies include OpenXR, GLFW, GLEW, zlib, libdatachannel, mbedTLS, miniaudio and vgmstream. Their notices accompany the distribution. CastleMiner Z and its original content belong to their respective owners. This project is unofficial and is not endorsed by the game's developers.
+
+## v0.57 imports and gameplay
+
+Run setup again after installing this release so it imports the original dragon fire/ice effects and player death clip. Setup keeps a backup of the previous import and preserves existing HD packs. Matching Quest/PC v0.57 adds dragon landing/rest, a red Click to Respawn screen and original far-world Lantern Land terrain near 46.3 km. Physical headset and different-home testing remain pending.

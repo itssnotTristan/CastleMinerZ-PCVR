@@ -1,5 +1,5 @@
 {
-  "version": "0.56",
+  "version": "0.57-public-beta",
   "sourceGameVersion": "1.9.9.8",
   "contentFingerprint": "15070507204261208425",
   "assets": [
@@ -899,6 +899,11 @@
       "sha256": "cbc4bb5bd3ac05bb115f643081240d87f778a7a04588d1f2d19fb8b00e1cc24c"
     },
     {
+      "path": "game/dragon-effects.bin",
+      "bytes": 1928,
+      "sha256": "a4eb87dc74def5cf364d83bece199e6f347a60cd9e8acd86d72175afe58204fd"
+    },
+    {
       "path": "game/dragon-feet.skin",
       "bytes": 669474,
       "sha256": "0df2c72d3e4edf9d96f68660057671d7a7ea234ef3df4bf29abf9cd2f9667514"
@@ -912,6 +917,86 @@
       "path": "game/dragon-fireball.mesh",
       "bytes": 2094,
       "sha256": "4aece142683b0a52b43069a1f0857c8c76dec5957435d0ca06ca7a29cd01d50a"
+    },
+    {
+      "path": "game/dragon-fx-0.rgba",
+      "bytes": 262152,
+      "sha256": "e919551bae27208c1b94a9da591d8861d56bc661eba4d6ed402c61d71aaae014"
+    },
+    {
+      "path": "game/dragon-fx-1.rgba",
+      "bytes": 262152,
+      "sha256": "be0b952fa96783c197846244e115943629a3126772467781f48d14fb6864cc41"
+    },
+    {
+      "path": "game/dragon-fx-10.rgba",
+      "bytes": 65544,
+      "sha256": "bbc539b39f8ab78481eab14a5919ab6b425bf2230fa05b39fa75978d22ef0ae2"
+    },
+    {
+      "path": "game/dragon-fx-11.rgba",
+      "bytes": 65544,
+      "sha256": "66d50ada299267d164d816b5e7c479d2bdf49d0fa58f401e45acd0e7cb5e77d9"
+    },
+    {
+      "path": "game/dragon-fx-12.rgba",
+      "bytes": 65544,
+      "sha256": "bbc539b39f8ab78481eab14a5919ab6b425bf2230fa05b39fa75978d22ef0ae2"
+    },
+    {
+      "path": "game/dragon-fx-13.rgba",
+      "bytes": 65544,
+      "sha256": "66d50ada299267d164d816b5e7c479d2bdf49d0fa58f401e45acd0e7cb5e77d9"
+    },
+    {
+      "path": "game/dragon-fx-14.rgba",
+      "bytes": 262152,
+      "sha256": "be3c70362801ea0bf80fc7cb0fb38c0d35674fbfdb8409bd9d472ada85b8c8a2"
+    },
+    {
+      "path": "game/dragon-fx-15.rgba",
+      "bytes": 65544,
+      "sha256": "4bc3b875009f559646f1bb67940c41c575938366dcc9b0ea6be167041f97e9be"
+    },
+    {
+      "path": "game/dragon-fx-2.rgba",
+      "bytes": 65544,
+      "sha256": "5220342fe6dcfcfdbd75647245ca4e6dda692b12b2cba1fc4eb62abd0f2c70cd"
+    },
+    {
+      "path": "game/dragon-fx-3.rgba",
+      "bytes": 262152,
+      "sha256": "e919551bae27208c1b94a9da591d8861d56bc661eba4d6ed402c61d71aaae014"
+    },
+    {
+      "path": "game/dragon-fx-4.rgba",
+      "bytes": 65544,
+      "sha256": "5220342fe6dcfcfdbd75647245ca4e6dda692b12b2cba1fc4eb62abd0f2c70cd"
+    },
+    {
+      "path": "game/dragon-fx-5.rgba",
+      "bytes": 262152,
+      "sha256": "e919551bae27208c1b94a9da591d8861d56bc661eba4d6ed402c61d71aaae014"
+    },
+    {
+      "path": "game/dragon-fx-6.rgba",
+      "bytes": 262152,
+      "sha256": "be0b952fa96783c197846244e115943629a3126772467781f48d14fb6864cc41"
+    },
+    {
+      "path": "game/dragon-fx-7.rgba",
+      "bytes": 16392,
+      "sha256": "1172335025557ff50a45731ac6d2fbe2129ab65be6fec1b16a12dd433dfb131a"
+    },
+    {
+      "path": "game/dragon-fx-8.rgba",
+      "bytes": 65544,
+      "sha256": "66d50ada299267d164d816b5e7c479d2bdf49d0fa58f401e45acd0e7cb5e77d9"
+    },
+    {
+      "path": "game/dragon-fx-9.rgba",
+      "bytes": 262152,
+      "sha256": "be3c70362801ea0bf80fc7cb0fb38c0d35674fbfdb8409bd9d472ada85b8c8a2"
     },
     {
       "path": "game/dragon-iceball-0.rgba",
@@ -1780,8 +1865,8 @@
     },
     {
       "path": "game/player-body.skin",
-      "bytes": 1990831,
-      "sha256": "07d928b5421a8d26630e5f2d996aadc050720468425782375e1e88b4924ca72a"
+      "bytes": 2177151,
+      "sha256": "89e61a9774a7033e63ee53ed977dac0d98dbf10ad2d5847af038313bd8bf0656"
     },
     {
       "path": "game/player.mesh",
@@ -1839,6 +1924,16 @@
       "sha256": "b18d2451dfbb0d23a7404dbac7f00c5a450404343e1ac5020478403db91ac845"
     },
     {
+      "path": "game/storage-font.rgba",
+      "bytes": 2097160,
+      "sha256": "37e1e095a9130742a839f7f9ae376faba4de557049bf0c1e56830dc3dc7d300d"
+    },
+    {
+      "path": "game/storage.font",
+      "bytes": 524,
+      "sha256": "e26f2f173a49c8fe9a7800de964bb9a6ab9623123aae1625b22fda339f47ea8a"
+    },
+    {
       "path": "game/terrain.bin",
       "bytes": 18874400,
       "sha256": "c8135587cb4a4fd5decffdff4ce452ec3f68c940cd33859ce8bf94616335966d"
@@ -1867,6 +1962,11 @@
       "path": "game/ui-CraftSelector.rgba",
       "bytes": 23480,
       "sha256": "d0d20827d4bde6acaf4eda6c2f040dd29e06387a55a770a8b4b777e063fd431d"
+    },
+    {
+      "path": "game/ui-InventoryGrid.rgba",
+      "bytes": 549128,
+      "sha256": "5f24b256df8023f72487e87159d5a180c21848a1131fa12a047eb368c7ed2c48"
     },
     {
       "path": "game/ui-MaterialsIcon.rgba",
@@ -1957,21 +2057,6 @@
       "path": "game/zombie.mesh",
       "bytes": 30589,
       "sha256": "c6e28714f1b98976df7a76aed0ef464b7c44ab46e3c7a473a53f7a99cb986fbc"
-    },
-    {
-      "path": "game/ui-InventoryGrid.rgba",
-      "bytes": 549128,
-      "sha256": "5f24b256df8023f72487e87159d5a180c21848a1131fa12a047eb368c7ed2c48"
-    },
-    {
-      "path": "game/storage-font.rgba",
-      "bytes": 2097160,
-      "sha256": "37e1e095a9130742a839f7f9ae376faba4de557049bf0c1e56830dc3dc7d300d"
-    },
-    {
-      "path": "game/storage.font",
-      "bytes": 524,
-      "sha256": "e26f2f173a49c8fe9a7800de964bb9a6ab9623123aae1625b22fda339f47ea8a"
     }
   ],
   "terrainRandomSeed": 541
