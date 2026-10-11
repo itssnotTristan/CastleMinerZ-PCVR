@@ -1,0 +1,6 @@
+*.zip
+*.log
+*.save
+.env*
+*.keystore
+*.jks

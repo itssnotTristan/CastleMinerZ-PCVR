@@ -1,0 +1,11 @@
+game/
+graphics-hd/
+game-import-*/
+game-before-setup-*/
+graphics-hd-import-*/
+*.log
+*.save
+*.tmp
+*.jks
+*.keystore
+.env*
