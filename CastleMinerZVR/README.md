@@ -2,7 +2,7 @@
 
 An unofficial PC VR mod for the Steam version of CastleMiner Z, by ItssnotTristan. Play with tracked head movement, motion controllers, two-handed weapons and VR menus. PC graphics include bloom, dynamic shadows, adjustable block parallax and four quality presets.
 
-**[Download the PC VR beta](https://github.com/itssnotTristan/CastleMinerZ-PCVR/releases/latest)** · **[Full setup guide](SETUP.md)**
+**[Download the PC VR beta](https://github.com/itssnotTristan/CastleMinerZ-PCVR/releases/tag/v0.56-public-beta)** · **[Full setup guide](SETUP.md)**
 
 ## Install
 
